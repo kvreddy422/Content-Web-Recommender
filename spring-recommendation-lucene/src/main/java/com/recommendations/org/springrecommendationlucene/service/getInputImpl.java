@@ -17,6 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+@Service
 public class getInputImpl implements getInput {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(getInputImpl.class);
