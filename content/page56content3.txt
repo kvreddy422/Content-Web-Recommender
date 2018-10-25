@@ -1,0 +1,1 @@
+Processes perform simple operations to write new objects into a JavaSpace, take objects from a JavaSpace, or read (make a copy of) objects from the JavaSpace.

@@ -1,0 +1,10 @@
+1 public class Question8 {
+ 2   public static void main(String[] args) {
+ 3     int x = 10;
+ 4     x = x + 10;
+ 5     x = 2 * x;
+ 6     x = x - 19;
+ 7     x = x / 3;
+ 8     System.out.println(x);
+ 9   }
+10 }

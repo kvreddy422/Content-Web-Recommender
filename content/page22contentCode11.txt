@@ -1,0 +1,8 @@
+1 public String convertToString(Collection<String> words) {
+2   String str = "";
+3   // Loops through every element in words collection
+4   for (String word : words) {
+5     str = str + word + " ";
+6   }
+7   return str;
+8 }

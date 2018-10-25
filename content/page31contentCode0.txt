@@ -1,0 +1,9 @@
+1 public abstract class AbstractClass {
+2     // This method does not have a body; it is abstract.
+3     public abstract void abstractMethod();
+4  
+5     // This method does have a body; it is implemented in the abstract class and gives a default behavior.
+6     public void concreteMethod() {
+7         System.out.println("Already coded.");
+8     }
+9 }

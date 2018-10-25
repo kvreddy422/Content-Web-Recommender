@@ -1,0 +1,1 @@
+The extends word is optional. If omitted, the class extends the Object class, as all Java classes inherit from it.

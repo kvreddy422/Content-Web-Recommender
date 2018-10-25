@@ -1,0 +1,5 @@
+1 public void printDistance() {
+2   System.out.println("Distance between " + point0
+3     + " and " + point1
+4     + " is " + point0.distance(point1));
+5 }

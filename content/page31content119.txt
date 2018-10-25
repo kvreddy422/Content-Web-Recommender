@@ -1,0 +1,1 @@
+Caveat: use static import very sparingly to avoid polluting the program's namespace!

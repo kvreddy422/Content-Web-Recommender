@@ -1,0 +1,1 @@
+class is a Java keyword which begins the declaration and definition of a class.

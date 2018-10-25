@@ -1,0 +1,13 @@
+JNIEXPORT void JNICALL Java_ClassName_MethodName(JNIEnv *env, jobject obj, jstring javaString)
+ {
+     /*DON'T FORGET THIS LINE!!!*/
+     JNF_COCOA_ENTER(env);
+
+     /*Get the native string from javaString*/
+     NSString* nativeString = JNFJavaToNSString(env, javaString);
+
+     /*Do something with the nativeString*/
+
+     /*DON'T FORGET THIS LINE!!!*/
+     JNF_COCOA_EXIT(env);
+ }

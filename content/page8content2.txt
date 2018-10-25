@@ -1,0 +1,1 @@
+However as a developer, you would only require the JDK which comes equipped with a JRE as well.

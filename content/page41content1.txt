@@ -1,0 +1,1 @@
+The most basic collection interface is called Collection. This interface gives the user the generic usage of a collection. All collections need to have the same basic operations. Those are:

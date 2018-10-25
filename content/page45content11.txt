@@ -1,0 +1,1 @@
+The executed code lines have been highlighted. When no exception is thrown, the method flow executes the try statement and not the catch statement.

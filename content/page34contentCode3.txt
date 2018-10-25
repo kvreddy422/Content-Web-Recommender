@@ -1,0 +1,6 @@
+1 public class Vehicle {
+2     // ...
+3     public void run() throws Exception {
+4         position += speed;
+5     }
+6 }

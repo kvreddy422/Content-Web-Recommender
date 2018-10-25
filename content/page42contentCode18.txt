@@ -1,0 +1,2 @@
+Size of al : 4
+Contents of al : [A, G, E, I]

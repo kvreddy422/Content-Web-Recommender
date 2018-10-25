@@ -1,0 +1,1 @@
+In a class, a package is declared at the top of the source code using the keyword package:

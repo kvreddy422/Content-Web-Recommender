@@ -1,0 +1,1 @@
+It is as if there is no try/catch statement. The exception is thrown to the calling method.

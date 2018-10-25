@@ -1,0 +1,1 @@
+Write the String getDisplayName(String) method that receives the mail string as parameter and returns the readable person name like this: LASTNAME Firstname

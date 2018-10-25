@@ -1,0 +1,13 @@
+1 public class AProgram {
+ 2 
+ 3     private int age = 24;
+ 4 
+ 5     public static void main(String[] args) {
+ 6         int daysInAYear = 365;int ageInDay = 100000;
+ 7         int localAge = ageInDay / daysInAYear;
+ 8     }
+ 9 
+10     public int getAge() {
+11         return age;
+12     }
+13 }

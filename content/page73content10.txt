@@ -1,0 +1,1 @@
+There have been some discussions about the usage of applet tag but it still can be used for beginning and also would work in the real world as well.

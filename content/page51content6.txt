@@ -1,0 +1,1 @@
+In the above code, we create a class called RunnableProcess and implement the Runnable interface to ensure that we have a run() method in the class declaration.

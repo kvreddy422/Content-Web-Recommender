@@ -1,0 +1,1 @@
+You must understand the difference between the reference of an object and the object itself. A object reference is the link between a variable name and an instance of object:

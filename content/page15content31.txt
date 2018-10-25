@@ -1,0 +1,1 @@
+So the snippet first iterates on each positive integer from 2 using the while loop:

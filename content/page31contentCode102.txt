@@ -1,0 +1,15 @@
+public class MyClass
+ { 
+    MyClass(int a, int b) {
+        System.out.println("int a: " + a);
+        System.out.println("int b: " + b);
+    }
+    MyClass(int a) {
+        this(a, 0);
+    }
+    //...
+    public static void main(String[] args) {
+        new MyClass(1, 2);
+        new MyClass(5);
+    }
+ }

@@ -1,0 +1,5 @@
+1 String badlyCutText = "     Java is great.     ";
+2 System.out.println(badlyCutText);
+3 
+4 badlyCutText.trim();
+5 System.out.println(badlyCutText);

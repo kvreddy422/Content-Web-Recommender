@@ -1,0 +1,1 @@
+public static void main(String[] args) { Distance dist = new Distance( intValue(args[0]), intValue(args[1]), intValue(args[2]), intValue(args[3])); dist.printDistance(); }

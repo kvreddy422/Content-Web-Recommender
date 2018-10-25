@@ -1,0 +1,4 @@
+1 final ArrayList list = new ArrayList();
+2 System.out.println(list.size());
+3 list.add("One item");
+4 System.out.println(list.size());

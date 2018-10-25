@@ -1,0 +1,1 @@
+Used in class and interface definition to declare the class or interface that is to be extended.

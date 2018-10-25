@@ -1,0 +1,4 @@
+1 byte maxByte = 127;
+2 short maxShort = 32767;
+3 int maxInt = 2147483647;
+4 long maxLong = 9223372036854775807L;

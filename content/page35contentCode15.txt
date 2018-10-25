@@ -1,0 +1,7 @@
+1 import java.util.Date;
+2 
+3 public class ConsoleLogger {
+4     public void printLog(String log) {
+5         System.out.println(new Date() + ": " + log);
+6     }
+7 }

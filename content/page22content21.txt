@@ -1,0 +1,1 @@
+Another useful application could be to split the String text based on the new line character, so you could process the text line by line.

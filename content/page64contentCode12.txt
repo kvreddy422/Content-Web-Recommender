@@ -1,0 +1,1 @@
+Sum of the number stream: 1.0

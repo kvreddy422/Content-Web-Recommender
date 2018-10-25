@@ -1,0 +1,5 @@
+1 if (list == null) {
+2   // This block of statements executes if the condition is true.
+3 } else {
+4   // This block of statements executes if the condition is false.
+5 }

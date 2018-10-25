@@ -1,0 +1,1 @@
+throw is a keyword; it 'throws' an exception. In a throw statement, the three types of objects that can be thrown are: Exception, java:Throwable, and java:Error

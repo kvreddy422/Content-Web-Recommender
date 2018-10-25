@@ -1,0 +1,2 @@
+1 registerPersonInAgenda("John", "Doe");
+2 registerPersonInAgenda("Mark", "Lee", new Date(), new Date());

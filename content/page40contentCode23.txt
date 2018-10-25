@@ -1,0 +1,2 @@
+1 Collection<String>  collString  = new ArrayList<String>();
+2 Collection<Integer> collInteger = new ArrayList<Integer>();

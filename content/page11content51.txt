@@ -1,0 +1,1 @@
+This method is private since, like the fields point0 and point1, it is part of the internal implementation of the class and is not part of the external programming interface of the Distance class.

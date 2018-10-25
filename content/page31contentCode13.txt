@@ -1,0 +1,2 @@
+1 char aCharPrimitiveType = 'A';
+2 Character aCharacterObject = aCharPrimitiveType;

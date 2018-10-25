@@ -1,0 +1,1 @@
+File.listFiles() can return null if /etc is not a directory.

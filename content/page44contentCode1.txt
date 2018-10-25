@@ -1,0 +1,22 @@
+1 public class Customer {
+ 2     private String name;
+ 3     private String address;
+ 4     private String description;
+ 5     // ...
+ 6     public boolean equals(Object obj) {
+ 7         if (this == obj) {
+ 8             return true;
+ 9         } else if (obj == null) {
+10             return false;
+11         } else if (obj instanceof Customer) {
+12             Customer cust = (Customer) obj;
+13             if ((cust.getName() == null && name == null) ||
+14                 (cust.getName().equals(name) && ((cust.getAddress() == null && address == null)
+15                 || cust.getAddress().equals(address))) {
+16                 return true;
+17             }
+18         }
+19         return false;
+20     }
+21 
+22 }

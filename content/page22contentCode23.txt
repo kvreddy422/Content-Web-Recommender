@@ -1,0 +1,2 @@
+1 String str = "supporting";
+2 System.out.println(str.substring(3, 7));

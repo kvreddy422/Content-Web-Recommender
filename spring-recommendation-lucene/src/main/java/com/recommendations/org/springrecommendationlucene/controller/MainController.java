@@ -16,8 +16,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@RestController
 @CrossOrigin
+@RestController
 @RequestMapping("recommendation")
 public class MainController {
 

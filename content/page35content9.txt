@@ -1,0 +1,1 @@
+When overriding methods defined in interfaces there are several rules to be followed:

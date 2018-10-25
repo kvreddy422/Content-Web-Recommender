@@ -1,0 +1,61 @@
+1 public class Operators {
+ 2   public static void main(String[] args) {
+ 3     int x = 5;
+ 4     System.out.println("x = " + x);
+ 5     System.out.println();
+ 6    
+ 7     System.out.println("--- Addition             ---");
+ 8     x = 5;
+ 9     System.out.println("x + 2 = " + (x + 2));
+10     System.out.println("x = " + x);
+11     System.out.println();
+12    
+13     System.out.println("--- Subtraction          ---");
+14     x = 5;
+15     System.out.println("x - 4 = " + (x - 4));
+16     System.out.println("x = " + x);
+17     System.out.println();
+18    
+19     System.out.println("--- Multiplication       ---");
+20     x = 5;
+21     System.out.println("x * 3 = " + (x * 3));
+22     System.out.println("x = " + x);
+23     System.out.println();
+24    
+25     System.out.println("--- (Integer) Division   ---");
+26     x = 5;
+27     System.out.println("x / 2 = " + (x / 2));
+28     System.out.println("x = " + x);
+29     System.out.println();
+30    
+31     System.out.println("--- Modulo (Remainder)   ---");
+32     x = 5;
+33     System.out.println("x % 2 = " + (x % 2));
+34     System.out.println("x = " + x);
+35     System.out.println();
+36    
+37     System.out.println("--- Preincrement by one  ---");
+38     x = 5;
+39     System.out.println("++x   = " + (++x  ));
+40     System.out.println("x = " + x);
+41     System.out.println();
+42    
+43     System.out.println("--- Predecrement by one  ---");
+44     x = 5;
+45     System.out.println("--x   = " + (--x  ));
+46     System.out.println("x = " + x);
+47     System.out.println();
+48    
+49     System.out.println("--- Postincrement by one ---");
+50     x = 5;
+51     System.out.println("x++   = " + (x++  ));
+52     System.out.println("x = " + x);
+53     System.out.println();
+54    
+55     System.out.println("--- Postdecrement by one ---");
+56     x = 5;
+57     System.out.println("x--   = " + (x--  ));
+58     System.out.println("x = " + x);
+59     System.out.println();
+60   }
+61 }

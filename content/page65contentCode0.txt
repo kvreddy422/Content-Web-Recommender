@@ -1,0 +1,24 @@
+1 class Puppy implements java.io.Serializable {
+ 2 
+ 3   private static final long serialVersionUID = 348652158488L;
+ 4 
+ 5   private String color;
+ 6 
+ 7   private int age;
+ 8 
+ 9   public String getColor() {
+10     return color;
+11   }
+12 
+13   public void setColor(String color) {
+14     this.color = color;
+15   }
+16 
+17   public int getAge() {
+18     return age;
+19   }
+20 
+21   public void setAge(int age) {
+22     this.age = age;
+23   }
+24 }

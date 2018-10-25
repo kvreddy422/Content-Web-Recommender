@@ -1,0 +1,1 @@
+The idea of Java is to compile the source code into an intermediate language that will be interpreted.

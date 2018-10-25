@@ -1,0 +1,1 @@
+There are several methods in the Math class that deal with exponential functions.

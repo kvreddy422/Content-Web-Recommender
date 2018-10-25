@@ -1,0 +1,1 @@
+Example : for a class named Example defined in a package named org.wikibooks.en in the file C:\ProgJava\org\wikibooks\en\Example.java :

@@ -1,0 +1,3 @@
+1 if (objRef1 == objRef2) {
+2     // The two object references point to the same object
+3 }

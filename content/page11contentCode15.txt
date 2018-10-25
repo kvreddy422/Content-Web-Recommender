@@ -1,0 +1,6 @@
+1 public static void main(String[] args) {
+2    Distance dist = new Distance(
+3          intValue(args[0]), intValue(args[1]),
+4          intValue(args[2]), intValue(args[3]));
+5    dist.printDistance();
+6 }

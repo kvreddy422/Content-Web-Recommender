@@ -1,0 +1,4 @@
+Before the try block
+Inside the try block
+Execute the finally block
+Continue

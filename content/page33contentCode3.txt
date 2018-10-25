@@ -1,0 +1,6 @@
+1 public class Cheese {
+2   // This is a constructor
+3   public Cheese() {
+4     System.out.println("Construct an instance");
+5   }
+6 }

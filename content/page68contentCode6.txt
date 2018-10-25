@@ -1,0 +1,11 @@
+...
+public class MyCanvas extends Canvas {
+    ...
+    public void paint(Graphics graphics) {
+        graphics.setColor(Color.pink);
+        graphics.fillRoundRect(10, 10, 100, 100, 5, 5);
+        graphics.setColor(Color.red);
+        graphics.drawRoundRect(10, 10, 100, 100, 5, 5);
+    }
+    ...
+}

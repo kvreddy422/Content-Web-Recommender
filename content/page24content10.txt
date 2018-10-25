@@ -1,0 +1,1 @@
+It is possible to import an entire package, using an asterisk:

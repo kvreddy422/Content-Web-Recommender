@@ -1,0 +1,12 @@
+1 public class Repository<T> {
+ 2 
+ 3    public T item;
+ 4 
+ 5    public T getItem() {
+ 6       return item;
+ 7    }
+ 8 
+ 9    public void setItem(T newItem) {
+10       item = newItem;
+11    }
+12 }

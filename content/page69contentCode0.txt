@@ -1,0 +1,12 @@
+public class Hello {
+    JLabel label = newJLabel("Hello, Mundo!");
+    JFrame frame = new JFrame("BK*");
+    frame.add(label);
+
+    frame.setSize(300, 300);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.setVisible(true);
+    frame.setLocationRelativeTo(null);
+    frame.toFront();
+    }
+}

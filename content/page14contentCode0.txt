@@ -1,0 +1,12 @@
+1 int age = 6;
+ 2 System.out.println("Hello!");
+ 3 
+ 4 if (age < 13) {
+ 5   System.out.println("I'm a child.");
+ 6 }
+ 7 
+ 8 if (age > 20) {
+ 9   System.out.println("I'm an adult.");
+10 }
+11 
+12 System.out.println("Bye!");

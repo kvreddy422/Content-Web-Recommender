@@ -1,0 +1,1 @@
+The syntax above is a bit verbose. You can import the class by using the import Java keyword at the top of the file and then only specify its name:

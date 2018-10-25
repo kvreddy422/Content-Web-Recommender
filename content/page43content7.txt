@@ -1,0 +1,1 @@
+The remove() call has done nothing because "2" is a String, not an Integer so no key and value has been found and removed.

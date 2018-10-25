@@ -1,0 +1,16 @@
+1 {
+ 2 ...
+ 3      // myNumber is NOT visible
+ 4   {
+ 5      // myNumber is NOT visible
+ 6      int myNumber;
+ 7      // myNumber is visible
+ 8     {
+ 9       ...
+10        // myNumber is visible
+11     }
+12        // myNumber is visible
+13   }
+14      // myNumber is NOT visible
+15 ...
+16 }

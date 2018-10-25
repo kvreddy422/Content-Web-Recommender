@@ -1,0 +1,1 @@
+If you need to have the sequence */ inside a comment you can use html numeric entities: *&#47;.

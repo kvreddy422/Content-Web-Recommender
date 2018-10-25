@@ -1,0 +1,13 @@
+1 ...
+ 2 
+ 3 public void init() {
+ 4     setFont(new Font("Times New Roman", Font.PLAIN, 24));
+ 5     setForeground(Color.white);
+ 6     setBackground(Color.black);
+ 7     setLayout(new GridLayout);
+ 8    
+ 9     ...
+10    
+11     add(label);
+12     add(button);
+13 }

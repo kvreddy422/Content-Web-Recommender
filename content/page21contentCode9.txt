@@ -1,0 +1,6 @@
+1 FirstClass object = new FirstClass();
+2 object.setName("Christin");
+3 
+4 modifyObject(object);
+5 
+6 System.out.println(object.getName());

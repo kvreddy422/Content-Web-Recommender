@@ -1,0 +1,6 @@
+>java org.wikibooks.en.javaprogramming.example.Main
+Enter a number: 0.1
+Enter a number: 0.2
+Enter a number: 0.3
+Enter a number: 0.4
+Enter a number:

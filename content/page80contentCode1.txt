@@ -1,0 +1,42 @@
+1 import java.lang.reflect.Field;
+ 2 import java.lang.reflect.InvocationTargetException;
+ 3 import java.lang.reflect.Method;
+ 4  
+ 5 public class Hacker {
+ 6  
+ 7    private static final Object[] EMPTY = {};
+ 8  
+ 9    public void reflect() throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+10      Secret instance = new Secret();
+11      Class<?> secretClass = instance.getClass();
+12  
+13      // Print all the method names & execution result
+14      Method methods[] = secretClass.getDeclaredMethods();
+15      System.out.println("Access all the methods");
+16      for (Method method : methods) {
+17         System.out.println("Method Name: " + method.getName());
+18         System.out.println("Return type: " + method.getReturnType());
+19         method.setAccessible(true);
+20         System.out.println(method.invoke(instance, EMPTY) + "\n");
+21      }
+22  
+23      // Print all the field names & values
+24      Field fields[] = secretClass.getDeclaredFields();
+25      System.out.println("Access all the fields");
+26      for (Field field : fields) {
+27         System.out.println("Field Name: " + field.getName());
+28         field.setAccessible(true);
+29         System.out.println(field.get(instance) + "\n");
+30      }
+31   }
+32  
+33   public static void main(String[] args) {
+34     Hacker newHacker = new Hacker();
+35  
+36     try {
+37       newHacker.reflect();
+38     } catch (Exception e) {
+39       e.printStackTrace();
+40     }
+41   }
+42 }

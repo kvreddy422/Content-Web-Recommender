@@ -1,0 +1,22 @@
+1 public class Question15 {
+ 2 
+ 3     public static final int QKQKQKQK_MULTIPLIER = 2;
+ 4 
+ 5     public int ijijijijijijijijijAwfulName = 20;
+ 6 
+ 7     private int unununununununununCrummyName = 10;
+ 8 
+ 9     private void mememememememeUglyName(int i) {
+10         i = i++;
+11         tltltltltltltltltlBadName();
+12         int j = i * QKQKQKQK_MULTIPLIER;
+13     }
+14 
+15     public void tltltltltltltltltlBadName() {
+16         int k = ijijijijijijijijijAwfulName;
+17     }
+18 
+19     public static void main(String[] args) {
+20         mememememememeUglyName(unununununununununCrummyName);
+21     }
+22 }

@@ -1,0 +1,5 @@
+$ java ConfiguredApplication
+Hello world!
+Hello world!
+Hello world!
+Hello world!

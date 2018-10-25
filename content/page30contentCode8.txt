@@ -1,0 +1,2 @@
+1 /* This is a comment. \u002a\u002f
+2 String statement = "This is not a comment.";

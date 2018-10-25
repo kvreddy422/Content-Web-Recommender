@@ -1,0 +1,11 @@
+1 public class UnconditionalBranching {
+ 2     public static void main(String[] args) {
+ 3         System.out.println("Inside main method! Invoking aMethod!");
+ 4         aMethod();
+ 5         System.out.println("Back in main method!");
+ 6     }
+ 7 
+ 8     public static void aMethod() {
+ 9         System.out.println("Inside aMethod!");
+10     }
+11 }

@@ -1,0 +1,47 @@
+1 import java.applet.Applet;
+ 2 import java.awt.Button;
+ 3 import java.awt.Container;
+ 4 import java.awt.Dialog;
+ 5 import java.awt.FlowLayout;
+ 6 import java.awt.Frame;
+ 7 import java.awt.Label;
+ 8 import java.awt.event.ActionEvent;
+ 9 import java.awt.event.ActionListener;
+10 
+11 public class EventApplet extends Applet {
+12 
+13     /**
+14      * Init.
+15      */
+16     public void init() {
+17         Button clickMeButton = new Button("Click me");
+18 
+19         final Applet eventApplet = this;
+20 
+21         ActionListener specificClassToPerformButtonAction = new ActionListener() {
+22 
+23             public void actionPerformed(ActionEvent event) {
+24                 Dialog dialog = new Dialog(getParentFrame(eventApplet), false);
+25                 dialog.setLayout(new FlowLayout());
+26                 dialog.add(new Label("Hi!!!"));
+27                 dialog.pack();
+28                 dialog.setLocation(100, 100);
+29                 dialog.setVisible(true);
+30             }
+31 
+32             private Frame getParentFrame(Container container) {
+33                 if (container == null) {
+34                     return null;
+35                 } else if (container instanceof Frame) {
+36                     return (Frame) container;
+37                 } else {
+38                     return getParentFrame(container.getParent());
+39                 }
+40 
+41             }
+42         };
+43         clickMeButton.addActionListener(specificClassToPerformButtonAction);
+44 
+45         add(clickMeButton);
+46     }
+47 }

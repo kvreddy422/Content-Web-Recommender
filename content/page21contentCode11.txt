@@ -1,0 +1,4 @@
+1 private void modifyObject(FirstClass anObject) {
+2   anObject = new FirstClass();
+3   anObject.setName("Susan");
+4 }

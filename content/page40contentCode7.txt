@@ -1,0 +1,4 @@
+1 Collection<Integer> numbers = new ArrayList<Integer>();
+2 Integer number = assign(numbers, new Integer(1));
+3 Collection<String> texts = new ArrayList<String>();
+4 String text = assign(texts, "Store it.");

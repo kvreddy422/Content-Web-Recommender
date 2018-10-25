@@ -1,0 +1,7 @@
+1 for (int i = 1; i <= 10; i++) {
+2     System.out.println(i);
+3     if (i == 5) {
+4        System.out.println("STOP!");
+5        break;
+6     }
+7 }

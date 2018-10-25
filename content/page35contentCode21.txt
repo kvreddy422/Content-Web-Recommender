@@ -1,0 +1,7 @@
+1 Logger[] loggerArray = new Logger[2];
+2 loggerArray[0] = new ConsoleLogger();
+3 loggerArray[1] = new FileLogger();
+4 
+5 for (Logger logger : loggerArray) {
+6     logger.printLog("Check point.");
+7 }

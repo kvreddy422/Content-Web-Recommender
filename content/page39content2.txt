@@ -1,0 +1,1 @@
+When a class is declared inside another class, the nested class' access modifier can be public, private, protected or package(default).

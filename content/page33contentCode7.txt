@@ -1,0 +1,5 @@
+1 public class Cheese {
+2      public Cheese() {
+3            super();
+4      }
+5 }

@@ -1,0 +1,1 @@
+Note that after the assignment to result its value will not be changed if we assign different values to firstNumber or secondNumber, like in line 5.

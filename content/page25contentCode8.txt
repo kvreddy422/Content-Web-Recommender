@@ -1,0 +1,7 @@
+1 public class Question20 {
+2   public static void main(String[] args) {
+3     String[] listOfWord = {"beggars", "can't", "be", "choosers"};
+4     System.out.println(listOfWord[1]);
+5     System.out.println(listOfWord[listOfWord.length-1]);
+6   }
+7 }

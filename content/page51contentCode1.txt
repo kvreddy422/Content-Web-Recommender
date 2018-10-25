@@ -1,0 +1,6 @@
+public class RunnableProcess implements Runnable {
+    ...
+    public void run() {
+        ...
+    }
+}

@@ -1,0 +1,8 @@
+int maxLoopIter = 7;
+
+for (int i = 0; i < maxLoopIter; i++ ) {
+   if (i == 5) {
+      continue;  // -- 5 iteration is skipped --
+   }
+   System.println("Iteration = " + i);
+}

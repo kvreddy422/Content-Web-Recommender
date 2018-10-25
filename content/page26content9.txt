@@ -1,0 +1,1 @@
+Java also provides special cases of the pow function for square roots and cube roots of doubles, double Math.sqrt(double) and double Math.cbrt(double).

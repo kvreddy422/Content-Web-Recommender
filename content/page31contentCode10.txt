@@ -1,0 +1,9 @@
+try {
+   //...
+     throw new MyException_1();
+   //...
+} catch ( MyException_1 e ) {
+   // --- Handle the Exception_1 here --
+} catch ( MyException_2 e ) {
+   // --- Handle the Exception_2 here --
+}

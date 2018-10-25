@@ -1,0 +1,5 @@
+1 public void ioOperation(boolean isResourceAvailable) {
+2   if (!isResourceAvailable) {
+3     throw new IOException();
+4   }
+5 }

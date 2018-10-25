@@ -1,0 +1,18 @@
+1 public class ClassName {
+ 2 
+ 3   public static void sayClassName(Object aObject) {
+ 4     System.out.println("Object");
+ 5   }
+ 6 
+ 7   public static void sayClassName(String aString) {
+ 8     System.out.println("String");
+ 9   }
+10 
+11   public static void main(String[] args) {
+12     String aString = new String();
+13     sayClassName(aString);
+14 
+15     Object aObject = new String();
+16     sayClassName(aObject);
+17   }
+18 }

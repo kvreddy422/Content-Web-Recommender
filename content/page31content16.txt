@@ -1,0 +1,1 @@
+boolean is a keyword which designates the boolean primitive type. There are only two possible boolean values: true and false. The default value for boolean fields is false.

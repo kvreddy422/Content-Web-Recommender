@@ -1,0 +1,3 @@
+1 (2 > 3) ? true : false;
+2 "text".substring(2);
+3 System.out.println("Display a hard coded float: " + 37.19f);

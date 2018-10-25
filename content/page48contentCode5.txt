@@ -1,0 +1,8 @@
+1 boolean done = false;
+2 
+3 while (!done && something) {
+4     if (something2) {
+5        done = true;
+6        something3("yep");
+7     }
+8 }

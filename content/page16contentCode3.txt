@@ -1,0 +1,19 @@
+NOT operand:
+false
+true
+false
+AND operand:
+true
+false
+false
+true
+OR operand:
+true
+false
+true
+false
+XOR operand:
+false
+false
+true
+false

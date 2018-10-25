@@ -1,0 +1,9 @@
+JNIEXPORT void JNICALL Java_ClassName_MethodName
+        (JNIEnv *env, jobject obj, jstring javaString) {
+    // printf("%s", javaString);        // INCORRECT: Could crash VM!
+
+    // Correct way: Create and release native string from Java string
+    const char *nativeString = (*env)->GetStringUTFChars(env, javaString, 0);
+    printf("%s", nativeString);
+    (*env)->ReleaseStringUTFChars(env, javaString, nativeString);
+}

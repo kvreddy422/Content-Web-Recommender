@@ -1,0 +1,11 @@
+1 public class SubClass extends SuperClass {
+ 2    public void printHello() {
+ 3       super.printHello();
+ 4       System.out.println("Hello from SubClass");
+ 5       return;
+ 6    }
+ 7    public static main(String[] args) {
+ 8       SubClass obj = new SubClass();
+ 9       obj.printHello();
+10    }
+11 }

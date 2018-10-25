@@ -1,0 +1,1 @@
+The condition is a boolean expression which can be either true or false. The actions performed will depend on the value of the condition.

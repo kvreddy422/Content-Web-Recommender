@@ -1,0 +1,7 @@
+1 try {
+2   // Some code
+3 } catch (Exception e) {
+4   // Optional exception handling
+5 } finally {
+6   // This code is executed no matter what
+7 }

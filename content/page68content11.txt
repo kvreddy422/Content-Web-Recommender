@@ -1,0 +1,1 @@
+You can change the color of the outline by telling the Graphics instance the color you desire. This can be done as follows:

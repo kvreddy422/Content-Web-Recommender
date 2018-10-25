@@ -1,0 +1,8 @@
+public class MyMethod
+{
+    @CodeDescription(author = "Sysop")
+    public void doSomething()
+    {
+        ...
+    }
+}

@@ -1,0 +1,4 @@
+1 for (int i = 1, j = 10; i <= 10; i++, j--) {
+2   System.out.print(i + " ");
+3   System.out.println(j);
+4 }

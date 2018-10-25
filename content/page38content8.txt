@@ -1,0 +1,1 @@
+The same way all member variables defined in the Interface by default will become static final once inherited in a class.

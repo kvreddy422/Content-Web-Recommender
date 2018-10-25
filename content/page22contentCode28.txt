@@ -1,0 +1,2 @@
+Integer appears at column 38.
+Integer appears at column 47.

@@ -1,0 +1,17 @@
+1 Day day = Day.MONDAY; // Day is a fictional enum type containing the days of the week
+ 2 switch(day) {
+ 3     case MONDAY:
+ 4         // Since day == Day.MONDAY, this statement will execute
+ 5         System.out.println("Mondays are the worst!");
+ 6         break;
+ 7     case TUESDAY:
+ 8     case WEDNESDAY:
+ 9     case THURSDAY:
+10         System.out.println("Weekdays are so-so.");
+11         break;
+12     case FRIDAY:
+13     case SATURDAY:
+14     case SUNDAY:
+15         System.out.println("Weekends are the best!");
+16         break;
+17 }

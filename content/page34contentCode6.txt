@@ -1,0 +1,5 @@
+1 public class Class2 extends Class1 {
+2     public int myAttributeOfClass2 = 10;
+3     public void myMethodOfClass2(int i) {
+4     }
+5 }

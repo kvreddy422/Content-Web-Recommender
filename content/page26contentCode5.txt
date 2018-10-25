@@ -1,0 +1,118 @@
+1 package string;
+  2 
+  3 import static org.junit.Assert.assertEquals;
+  4 import static org.junit.Assert.assertFalse;
+  5 import static org.junit.Assert.assertTrue;
+  6 
+  7 import java.util.Vector;
+  8 
+  9 import org.junit.Test;
+ 10 
+ 11 /**
+ 12  * The JUnit test for the <code>MathsUtils</code> class.
+ 13  *
+ 14  * @since 2013-03-26
+ 15  * @version 2014-10-14
+ 16  */
+ 17 public class MathsUtilsTest {
+ 18 
+ 19 	/**
+ 20 	 * Method that adds a negative and a positive value to values.
+ 21 	 *
+ 22 	 * @param d the double value
+ 23 	 * @param values the values
+ 24 	 */
+ 25 	private static void addValue(final double d, Vector<Double> values) {
+ 26 		values.add(-d);
+ 27 		values.add(d);
+ 28 	}
+ 29 
+ 30 	// Public methods ------
+ 31 
+ 32 	/**
+ 33 	 * Tests the round method with a double parameter.
+ 34 	 */
+ 35 	@Test
+ 36 	public void testRoundToStringDoubleByteCharDouble() {
+ 37 		// Test rounding
+ 38 		final Vector<Double> values = new Vector<Double>();
+ 39 		final Vector<String> strValues = new Vector<String>();
+ 40 
+ 41 		values.add(0.0);
+ 42 		strValues.add("0.00000");
+ 43 		addValue(1.4012984643248202e-45, values);
+ 44 		strValues.add("-1.4012E-45");
+ 45 		strValues.add("1.4013E-45");
+ 46 		addValue(1.999999757e-5, values);
+ 47 		strValues.add("-1.9999E-5");
+ 48 		strValues.add("2.0000E-5");
+ 49 		addValue(1.999999757e-4, values);
+ 50 		strValues.add("-1.9999E-4");
+ 51 		strValues.add("2.0000E-4");
+ 52 		addValue(1.999999757e-3, values);
+ 53 		strValues.add("-0.0019999");
+ 54 		strValues.add("0.0020000");
+ 55 		addValue(0.000640589, values);
+ 56 		strValues.add("-6.4058E-4");
+ 57 		strValues.add("6.4059E-4");
+ 58 		addValue(0.3396899998188019, values);
+ 59 		strValues.add("-0.33968");
+ 60 		strValues.add("0.33969");
+ 61 		addValue(0.34, values);
+ 62 		strValues.add("-0.33999");
+ 63 		strValues.add("0.34000");
+ 64 		addValue(7.07, values);
+ 65 		strValues.add("-7.0699");
+ 66 		strValues.add("7.0700");
+ 67 		addValue(118.188, values);
+ 68 		strValues.add("-118.18");
+ 69 		strValues.add("118.19");
+ 70 		addValue(118.2, values);
+ 71 		strValues.add("-118.19");
+ 72 		strValues.add("118.20");
+ 73 		addValue(123.405009, values);
+ 74 		strValues.add("-123.40");
+ 75 		strValues.add("123.41");
+ 76 		addValue(30.76994323730469, values);
+ 77 		strValues.add("-30.769");
+ 78 		strValues.add("30.770");
+ 79 		addValue(130.76994323730469, values);
+ 80 		strValues.add("-130.76");
+ 81 		strValues.add("130.77");
+ 82 		addValue(540, values);
+ 83 		strValues.add("-539.99");
+ 84 		strValues.add("540.00");
+ 85 		addValue(12345, values);
+ 86 		strValues.add("-12344");
+ 87 		strValues.add("12345");
+ 88 		addValue(123456, values);
+ 89 		strValues.add("-123450");
+ 90 		strValues.add("123460");
+ 91 		addValue(540911, values);
+ 92 		strValues.add("-540900");
+ 93 		strValues.add("540910");
+ 94 		addValue(9.223372036854776e56, values);
+ 95 		strValues.add("-9.2233E56");
+ 96 		strValues.add("9.2234E56");
+ 97 
+ 98 		byte i = 0;
+ 99 		final byte significants = 5;
+100 
+101 		for (final double element : values) {
+102 			final String strValue;
+103 
+104 			try {
+105 				strValue = MathsUtils.roundToString(significants, StringUtils.PERIOD, element);
+106 
+107 				System.out.println(" MathsUtils.round(" + significants  + ", '"
+108 						+ StringUtils.PERIOD + "', " + element + ") ==> "
+109 						+ strValue + " = " + strValues.get(i));
+110 				assertEquals("Testing roundToString", strValue, strValues.get(i++));
+111 			} catch (final Exception e) {
+112 				// TODO Auto-generated catch block
+113 				e.printStackTrace();
+114 			}
+115 		}
+116 	}
+117 
+118 }	// class MathsUtilsTest

@@ -1,0 +1,2 @@
+1 Object obj = null;
+2 obj.toString();  // This statement will throw a NullPointerException

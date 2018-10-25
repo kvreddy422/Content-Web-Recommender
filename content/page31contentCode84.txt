@@ -1,0 +1,4 @@
+public strictfp class MyClass 
+{ 
+  //...
+}

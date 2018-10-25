@@ -1,0 +1,4 @@
+public myMethod() throws MyException1, MyException2
+{MyException1
+  ...
+}

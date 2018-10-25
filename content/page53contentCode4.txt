@@ -1,0 +1,81 @@
+public class ComClient
+ {
+  private Socket         comSocket;
+  private ObjectOutputStream oOut;
+  private ObjectInputStream  oIn;
+  private boolean         IsItOpen = false;       
+    /**
+     * --- Open Socket ---
+     */
+    public void openCom( String sServerName,
+                         int    iPortNumber ) throws UnknownHostException,
+                                                              IOException  
+    {
+       try {
+          // --- Open Socket for communication ---
+          comSocket = new Socket( sServerName, iPortNumber );     
+          // --- Get Stream to write request to the Server ---
+          oOut = new ObjectOutputStream( comSocket.getOutputStream() );     
+          // --- Get Stream// to read from the Server
+          oIn = new ObjectInputStream( comSocket.getInputStream());
+          // --- Set internal Member variable that the Communication opened ---
+          IsItOpen = true;
+       } catch ( java.net.UnknownHostException e ) {
+          System.err.println( "(openCom:)Don't know about host: "+sServerName );
+          IsItOpen = false;
+          throw( e );                                         
+       } catch ( java.io.IOException e ) {
+          System.err.println("(openCom:)Couldn't get I/O for the connection to: "+ sServerName );
+          IsItOpen = false;
+          throw( e );         
+       }               
+    }
+    /**
+     * --- Check if Socket is open ---
+     */
+    public boolean isItOpen()
+    {
+      return IsItOpen;
+    }     
+    /**
+     * --- Get data string from the Server ---
+     */
+    public void getServerData( COM_DATA tServData ) throws IOException
+    {
+        // --- Initialize Variables ---
+        tServData.comData = "";
+        // --- Get the Response from the Server ---              
+        try {
+           tServData.copy( (COM_DATA) oIn.readObject() );
+        }   
+        catch ( ClassNotFoundException e ) {
+            System.out.println( "Class Not Found" );
+        } 
+        System.out.println( "Server: " + tServData.comData );
+        if ( tServData.comData.equals("BYE.") )
+        {
+            tServData.bExit = true;
+        }        
+     return;
+    }
+    /**
+     * --- Send data to the Server ---
+     */
+    public void sendDataToServer( COM_DATA tServData ) throws IOException
+    {
+        // --- Send the data string ---
+        System.out.println( "Send: " + tServData.comData );
+        oOut.writeObject( tServData );
+     return;
+    } 
+    /**
+     * --- Close Socket --- 
+     */
+    public void closeCom() throws IOException
+    {
+        oOut.close();
+        oIn.close();
+        comSocket.close();
+        IsItOpen = false;
+    }    
+ }

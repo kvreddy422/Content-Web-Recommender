@@ -1,0 +1,14 @@
+1 class Count {
+ 2     public static void main(String[] args) {
+ 3         System.out.println("1 ");
+ 4         System.out.println("2 ");
+ 5         System.out.println("3 ");
+ 6         System.out.println("4 ");
+ 7         System.out.println("5 ");
+ 8         System.out.println("6 ");
+ 9         System.out.println("7 ");
+10         System.out.println("8 ");
+11         System.out.println("9 ");
+12         System.out.println("10 ");
+13     }
+14 }

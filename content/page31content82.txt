@@ -1,0 +1,1 @@
+The final keyword forbids the creation of a subclass. It is the case of the Integer or String class.

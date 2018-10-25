@@ -1,0 +1,3 @@
+1 public interface Logger {
+2     void printLog(String log);
+3 }

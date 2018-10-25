@@ -1,0 +1,1 @@
+Whitespace is required between private and static, between static and int, between int and intValue, and between String and data.

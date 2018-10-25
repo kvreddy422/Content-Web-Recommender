@@ -1,0 +1,9 @@
+1 public String convertToString(Collection<String> words) {
+2   StringBuilder buf = new StringBuilder();
+3   // Loops through every element in words collection
+4   for (String word : words) {
+5     buf.append(word);
+6     buf.append(" ");
+7   }
+8   return buf.toString();
+9 }

@@ -1,0 +1,5 @@
+@interface CodeDescription
+{
+    String author();
+    String version() default "1.0.0.1";
+}

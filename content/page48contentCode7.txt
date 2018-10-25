@@ -1,0 +1,2 @@
+1 Object[] objects;
+2 objects = new Object[]{"blah", 5, new File("/usr/bin")};

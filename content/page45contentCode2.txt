@@ -1,0 +1,19 @@
+1 public class SimpleDivisionOperation {
+ 2   public static void main(String[] args) {
+ 3     System.out.println(divide(4, 2));
+ 4     if (args.length > 1) {
+ 5       // Convert a string to an integer
+ 6       int arg0 = Integer.parseInt(args[0]);
+ 7       int arg1 = Integer.parseInt(args[1]);
+ 8       System.out.println(divide(arg0, arg1));
+ 9     }
+10   }
+11 
+12   public static int divide(int a, int b) {
+13     if (b == 0) {
+14       throw new ArithmeticException("You can\'t divide by zero!");       
+15     } else {
+16       return a / b;
+17     }
+18   }
+19 }

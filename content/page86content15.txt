@@ -1,0 +1,1 @@
+However, mapping between Java Strings and arrays to native strings and arrays is different. If you use a jstring in where a char * would be, your code could crash the JVM.

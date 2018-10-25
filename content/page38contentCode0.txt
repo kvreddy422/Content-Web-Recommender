@@ -1,0 +1,16 @@
+1 public class Scope {
+ 2 
+ 3     public void method1(int i) {
+ 4         i = i++;
+ 5         method2();
+ 6         int j = i * 2;
+ 7     }
+ 8 
+ 9     public void method2() {
+10         int k = 20;
+11     }
+12 
+13     public static void main(String[] args) {
+14         method1(10);
+15     }
+16 }

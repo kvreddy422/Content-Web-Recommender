@@ -1,0 +1,23 @@
+public enum DayOfWeek {
+  /** Enumeration constants */
+  MONDAY(1), TUESDAY(2), WEDNESDAY(3), THURSDAY(4), FRIDAY(5), SATURDAY(6), SUNDAY(0);
+
+  /** Code for the days of the week */
+  private byte dayCode = 0;
+
+  /**
+   * Private constructor
+   * @param VALUE  Value that stands for a day of the week.
+   */
+  private DayOfWeek(final byte VALUE) {
+    dayCode = java.lang.Math.abs(VALUE%7);
+  }
+ 
+  /**
+   * Gets the day code
+   * @return  The day code
+   */
+  public byte getDayCode() {
+    return dayCode;
+  }
+}

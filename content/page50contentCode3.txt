@@ -1,0 +1,5 @@
+1 try {
+2     lowLevelOp();
+3 } catch (LowLevelException le) {
+4     throw (HighLevelException) new HighLevelException().initCause(le);
+5 }

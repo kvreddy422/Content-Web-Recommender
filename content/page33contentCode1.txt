@@ -1,0 +1,16 @@
+1 public class EmployeeList {
+ 2     public static void main(String[] args) {
+ 3 
+ 4         System.out.println(Employee.getNextID());
+ 5  
+ 6         Employee a = new Employee("John Doe");
+ 7         Employee b = new Employee("Jane Smith");
+ 8         Employee c = new Employee("Sally Brown");
+ 9  
+10         System.out.println(Employee.getNextID());
+11  
+12         System.out.println(a.getID() + ": " + a.getName());
+13         System.out.println(b.getID() + ": " + b.getName());
+14         System.out.println(c.getID() + ": " + c.getName());
+15     }
+16 }

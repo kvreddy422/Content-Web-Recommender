@@ -1,0 +1,1 @@
+Note that a Unicode escape sequence functions just like any other character in the source code. E.g., \u0022 (double quote, ") needs to be quoted in a string just like ".

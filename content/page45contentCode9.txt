@@ -1,0 +1,19 @@
+1 try {
+ 2   // Suppose the code here throws any exceptions,
+ 3   // then each is handled in a separate catch block.
+ 4 
+ 5   int[] tooSmallArray = new int[2];
+ 6   int outOfBoundsIndex = 10000;
+ 7   tooSmallArray[outOfBoundsIndex] = 1;
+ 8 
+ 9   System.out.println("No exception thrown.");
+10 } catch(NullPointerException ex) {
+11   System.out.println("Exception handling code for the NullPointerException.");
+12 } catch(NumberFormatException ex) {
+13   System.out.println("Exception handling code for the NumberFormatException.");
+14 } catch(ArithmeticException | IndexOutOfBoundsException ex) {
+15   System.out.println("Exception handling code for ArithmeticException"
+16     + " or IndexOutOfBoundsException.");
+17 } catch(Exception ex) {
+18   System.out.println("Exception handling code for any other Exception.");
+19 }

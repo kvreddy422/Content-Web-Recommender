@@ -1,0 +1,3 @@
+5 Integer a = 10;
+6 Integer b = a + 2;
+7 System.out.println(b);

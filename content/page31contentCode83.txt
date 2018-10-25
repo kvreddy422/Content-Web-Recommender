@@ -1,0 +1,6 @@
+1 public ArithmeticToolbox {
+2    …
+3    public static int addTwoNumbers(final int firstNumber, final int secondNumber) {
+4         return firstNumber + secondNumber;
+5    }
+6 }

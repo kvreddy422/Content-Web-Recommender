@@ -1,0 +1,17 @@
+1 public class MyProgram {
+ 2 
+ 3     public static int count = 0;
+ 4 
+ 5     public static void main (String[] args) {
+ 6         MyProgram.count++;
+ 7 
+ 8         MyProgram program1 = new MyProgram();
+ 9         program1.count++;
+10 
+11         MyProgram program2 = new MyProgram();
+12         program2.count++;
+13 
+14         new MyProgram().count++;
+15         System.out.println(MyProgram.count);
+16     }
+17 }

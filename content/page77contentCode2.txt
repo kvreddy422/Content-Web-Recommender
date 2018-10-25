@@ -1,0 +1,1 @@
+1 Object result = mainMethod.invoke(null, arguments);

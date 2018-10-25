@@ -1,0 +1,1 @@
+You can see that the method1() method is abstract (unimplemented). To use an interface, you have to define a class that implements it, using the implements keyword:

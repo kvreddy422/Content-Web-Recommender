@@ -1,0 +1,104 @@
+class '''ComProtocol'''
+ {
+  private static final int COM_STATUS_WAITING    = 0; 
+  private static final int COM_STATUS_READY_SENT = 1;
+  private static final int COM_STATUS_DATA_SENT  = 2;
+  private static final int COM_STATUS_WAITING_FOR_TERMINALID = 3;
+  private int state = COM_STATUS_WAITING;
+  
+  // --- Reference to 'BACK-END' module ---  
+  private MqTeAccess mqTe;
+  ...
+    /**
+     * Create a protokol object; CAll MQ INI function
+     */
+    public ComProtocol()
+    {
+     int    iRet = 0;
+        // --- Initialize 'BACK-END' modules  ---
+        mqTe. ...
+ ...
+    }
+    /**
+     * --- Process the Input and Create the output to the Client ---
+     */
+    public COM_DATA processInput( COM_DATA theInput )
+    {
+     COM_DATA theOutput;
+        // --- Initialize Variables ---
+        theOutput = new COM_DATA();
+        // --- Check if the Clients want to disconnect ---
+        if ( theInput != null ) 
+        {
+            if ( theInput.comData.equals('''"!BYE.@"''') )
+            {
+                // --- The Client wants to terminate; Echo data back to client
+                theOutput.comData = "BYE.";
+                // --- Mark the communication to be terminated ---
+                theOutput.bExit = true;
+                // --- Set the internal state to wait for a new client ---
+                state = COM_STATUS_WAITING;
+                // --- Return Data object to be sent to the client ---
+                return theOutput;
+            }
+            if ( theInput.comData.equals('''"!SHUTDOWN.@"''') )
+            {
+                // --- The Client wants to terminate; Echo data back to client
+                theOutput.comData = "BYE.";
+                // --- Mark the communication to be terminated ---
+                theOutput.bExit = true;
+                // --- Tell the server to stop listening for new clients ---
+                ComServer.GL_listening = false;
+                // --- Set the internal state to wait for a new client ---
+                state = COM_STATUS_WAITING;
+                // --- Return Data object to be sent to the client ---
+                return theOutput;
+            }
+        }
+        if ( state == COM_STATUS_WAITING )
+        {
+            // --- Send ready Message to the Client ---
+            theOutput.comData = "Ready:";
+            // --- Set the internal state ready; and wait for TerminalId ---
+            state = COM_STATUS_WAITING_FOR_TERMINALID;
+        }
+        else if ( state == COM_STATUS_WAITING_FOR_TERMINALID )
+        {
+         int iRet;
+            // --- Get the Terminal ID ---
+            sTermId = theInput.comData; 
+            // --- Call 'BACK-END' modules ...  ---
+            mqTe. ...
+ ...
+            // --- Send ready Message with the Server Version to the Client ---
+            theOutput.comData = "Ready;Server Version 1.0:";
+            // --- Set the internal state raedy; and wait for TerminalId ---
+            state = COM_STATUS_READY_SENT;
+        }
+        else if ( state == COM_STATUS_READY_SENT )
+        {
+         int iRet;
+            String sCommand = theInput.comData;
+            // --- Call 'BACK-END' modules ...
+ ...
+            /*
+            ** --- Check if we should get Response data ---
+            */
+            if ( theInput.iRet == COM_DATA.NOWAIT_FOR_RESPONSE ) {
+                // -- Set the Output Value ---
+                theOutput.iRet = iRet;
+                theOutput.comData = "";
+            }
+            else {
+                // --- Call 'BACK-END' modules ---
+                mqTe. ...
+                // --- Set the Output Value ---
+                theOutput.comData    = mqTe.sResponseBuffer; 
+                theOutput.iRet       = iRet;
+            }
+        }
+     return theOutput;
+    }  // --- End of Method processInput() ---
+ } // --- End of ComProtocol Class Definition ---
+
+----

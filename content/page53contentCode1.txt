@@ -1,0 +1,94 @@
+/**
+  * -- A class extended from a Thread; Responsible to service one client --
+  */
+ class '''ComServerThread''' extends Thread
+ {
+    private Socket clientSocket = null;
+    COM_DATA tDataFromClient;
+    COM_DATA tDataToClient; 
+    ObjectInputStream oIn;
+    ObjectOutputStream oOut;
+    /**
+     * -- Constructor --
+     */
+    public ComServerThread( Socket socket )
+    {
+       super( "ComServerThread" );
+       this.clientSocket = socket;
+    } // -- End of ComServerThread() constructor --
+    /**
+     * -- Overrun from the Thread (super) class --
+     */
+    public void run()
+    {
+       try {
+          // --- Create the Writer; will be used to send data to client ---
+          oOut = new ObjectOutputStream( clientSocket.getOutputStream() );
+          // --- Create the Reader; will be used to get data from client ---
+          oIn  = new ObjectInputStream( clientSocket.getInputStream() );
+          // --- Create a new protocol object ---
+          ComProtocol comp = new ComProtocol();
+          // --- Send something to client to indicate that server is ready ---
+          tDataToClient  = '''comp.processInput( null );'''
+          '''sendDataToClient'''( tDataToClient, oOut );
+          // --- Get the data from the client ---
+          while ( true )
+          {
+             try {
+                tDataFromClient = '''getDataFromClient( oIn )''';
+                // --- Parse the request and get the reply ---
+                tDataToClient = '''comp.processInput( tDataFromClient );'''
+                // --- Send data to the Client ---
+                '''sendDataToClient'''( tDataToClient, oOut );
+             }
+             catch ( EOFException e ) {
+                System.out.println( "Client Disconnected, Bye, Bye" );
+                break;
+             }
+             // --- See if the Client wanted to terminate the connection ---
+             if ( tDataToClient.bExit )
+             {
+                System.out.println( "Client said Bye. Bye" );
+                break;
+             }
+          }
+          // --- Close resources;  This client is gone ---
+          comp.Final();
+          oOut.close();
+          oIn.close();
+          clientSocket.close();
+       } catch ( IOException e ) {
+        e.printStackTrace();
+       }
+    } // -- End of run() Method --
+    /**
+     * Get data from Client 
+     */
+    private static COM_DATA '''getDataFromClient'''( ObjectInputStream oIn ) throws IOException                                                                         
+    {
+        COM_DATA  tDataFromClient = null;         
+        // --- Initialize variables ---
+        //   tDataFromClient = new COM_DATA();
+        while ( tDataFromClient == null )
+        {
+           try {
+              // --- Read Line Number first --
+              tDataFromClient = (COM_DATA) oIn.readObject();
+           } catch ( ClassNotFoundException e ) {
+               System.out.println( "ClassNotFound" );
+           }
+        }
+        System.out.println( "Get: " + tDataFromClient.comData );
+     return tDataFromClient;
+    } // --- getDataFromClient() Method --- 
+    /**
+     * Send data to Client 
+     */
+    private static void '''sendDataToClient'''( COM_DATA tDataToClient,
+                                           ObjectOutputStream  oOut ) throws IOException
+    {         
+        System.out.println( "Sent: " + tDataToClient.comData );
+        oOut.writeObject( tDataToClient );
+      return;
+    } // -- End of sendDataToClient() Method --
+ } // --- End of ComServerThread class ---

@@ -1,0 +1,20 @@
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
+public class Regex {
+	public static void main(String[] args) {
+		String s = "Test <i>Java</i> <b>regex</b> for <b>Wikibooks</b>.";
+		Pattern p = Pattern.compile("<b>([^<]+)</b>");
+		Matcher m = p.matcher(s);
+		while(m.find()) {
+			System.out.println(m.group());
+			System.out.println(m.group(1));
+		}
+	}
+}
+/* Displays:
+ <b>regex</b>
+ regex
+ <b>Wikibooks</b>
+ Wikibooks
+*/

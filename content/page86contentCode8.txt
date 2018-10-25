@@ -1,0 +1,11 @@
+1 public class HelloWorld {
+ 2  private native void print();
+ 3 
+ 4  public static void main(String[] args) {
+ 5   new HelloWorld().print();
+ 6  }
+ 7 
+ 8  static {
+ 9   System.loadLibrary("HelloWorld");
+10  }
+11 }

@@ -1,0 +1,1 @@
+Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:MyDatabase", "MyAccount as sysdba",

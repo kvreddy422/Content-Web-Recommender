@@ -1,0 +1,9 @@
+1 private int myMethod(int a, int b, boolean c) {
+2   b = b + 2;
+3   if (a > 0) {
+4     a = a + b;
+5     return a;
+6   } else {
+7     a = 0;
+8   }
+9 }

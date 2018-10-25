@@ -1,0 +1,1 @@
+Though enums have not been covered yet, here is an example so you can see how it's done (note that the enum constants in the cases do not need to be qualified with the type:

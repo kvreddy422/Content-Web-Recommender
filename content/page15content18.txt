@@ -1,0 +1,1 @@
+To understand the structure of a for-each loop, look at the following example:

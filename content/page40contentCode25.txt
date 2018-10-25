@@ -1,0 +1,4 @@
+1 public void method(Object argument) {
+2   Object variable;
+3   …
+4 }

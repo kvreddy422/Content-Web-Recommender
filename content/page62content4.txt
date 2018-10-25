@@ -1,0 +1,1 @@
+There are two packages for I/O: the older java.io package (does not support symbolic links) and the newer java.nio ("new io") package that has improved exception handling at java.nio.file.

@@ -1,0 +1,8 @@
+1 private boolean initialized = false;
+2 
+3 public void synchronizeConnection() {
+4    if (!initialized) {
+5       connection = connect();
+6       initialized = true;
+7    }
+8 }

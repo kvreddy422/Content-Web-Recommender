@@ -1,0 +1,5 @@
+1 {
+2    super();
+3    point0 = new java.awt.Point(x0, y0);
+4    point1 = new java.awt.Point(x1, y1);
+5 }

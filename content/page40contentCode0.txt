@@ -1,0 +1,12 @@
+1 public class Repository {
+ 2 
+ 3    public Integer item;
+ 4 
+ 5    public Integer getItem() {
+ 6       return item;
+ 7    }
+ 8 
+ 9    public void setItem(Integer newItem) {
+10       item = newItem;
+11    }
+12 }

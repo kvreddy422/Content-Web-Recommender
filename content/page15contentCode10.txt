@@ -1,0 +1,4 @@
+1 String[] sentence = {"I", "am", "a", "Java", "program."};
+2 for (String word : sentence) {
+3     System.out.print(word + " ");
+4 }

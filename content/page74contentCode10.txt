@@ -1,0 +1,29 @@
+1 import java.applet.Applet;
+ 2 import java.awt.Button;
+ 3 import java.awt.GridLayout;
+ 4 import java.awt.Label;
+ 5 import java.awt.TextField;
+ 6 
+ 7 public class GridLayoutApplet extends Applet {
+ 8 
+ 9     Button submitButton = new Button("Submit");
+10     TextField t1 = new TextField();                // Blank
+11     TextField t2 = new TextField(5);               // Blank in 5 columns
+12     TextField t3 = new TextField("Input here");    // Predefined text
+13     TextField t4 = new TextField("Input here", 5); // Predefined text in 5 columns
+14     Label nameLabel = new Label("Name: ");
+15 
+16     /**
+17      * Init.
+18      */
+19     public void init() {
+20         // 3 rows, 4 columns, 2 pixel spacing
+21         setLayout(new GridLayout(3, 4, 2, 2));
+22         add(nameLabel);
+23         add(t1);
+24         add(t2);
+25         add(t3);
+26         add(t4);
+27         add(submitButton);
+28     }
+29 }

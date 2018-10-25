@@ -1,0 +1,1 @@
+The final keyword is similar to const in other languages and the readonly keyword in C#. A final variable cannot be volatile.

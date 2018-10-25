@@ -1,0 +1,7 @@
+1 {
+2   // Create an object
+3   MyObject obj = new MyObject();
+4 
+5   // Use the object
+6   obj.printMyValues();
+7 }

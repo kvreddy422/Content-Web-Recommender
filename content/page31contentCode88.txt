@@ -1,0 +1,6 @@
+1 public class SuperClass {
+2    public void printHello() {
+3       System.out.println("Hello from SuperClass");
+4       return;
+5    }
+6 }

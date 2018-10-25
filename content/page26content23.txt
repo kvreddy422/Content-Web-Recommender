@@ -1,0 +1,1 @@
+Math.ulp(double) and Math.ulp(float) return an ulp, the smallest value which, when added to the argument, would be recognized as larger than the argument.

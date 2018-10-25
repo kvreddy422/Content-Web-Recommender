@@ -1,0 +1,2 @@
+1 public interface Movable extends Walkable, Jumpable {
+2 }

@@ -1,0 +1,1 @@
+You can also implement this using a common super class but a class can only inherit from one super class whereas it can implement several interfaces.

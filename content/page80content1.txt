@@ -1,0 +1,1 @@
+All features of a class can be obtained via reflection, including access to private methods & variables. But not always see [1]. Let us look at the following example:

@@ -1,0 +1,1 @@
+Every class in Java can be composed of the following elements:

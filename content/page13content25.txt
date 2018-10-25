@@ -1,0 +1,1 @@
+Also referred to as if statements, these allow a program to perform a test and then take action based on the result of that test.

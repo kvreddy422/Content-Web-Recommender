@@ -1,0 +1,16 @@
+1 int i, j;
+ 2 int[][] nums = {
+ 3     {1, 2, 5},
+ 4     {6, 9, 7},
+ 5     {8, 3, 4}
+ 6 };
+ 7 
+ 8 Outer:
+ 9 for (i = 0; i < nums.length; i++) {
+10     for (j = 0; j < nums[i].length; j++) {
+11         if (nums[i][j] == 9) {
+12             System.out.println("Found number 9 at (" + i + ", " + j + ")");
+13             break Outer;
+14         }
+15     }
+16 }

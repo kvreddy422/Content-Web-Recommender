@@ -1,0 +1,1 @@
+1 Object[] objects = {"blah", 5, new File("/usr/bin")};

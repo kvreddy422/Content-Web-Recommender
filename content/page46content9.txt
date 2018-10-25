@@ -1,0 +1,1 @@
+Prior to Java 1.8: The implementer must declare same exception or its subclass.

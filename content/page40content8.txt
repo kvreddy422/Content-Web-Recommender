@@ -1,0 +1,1 @@
+When a type that is defined with generic (for example, Collection<T>) is not used with generics (for example, Collection) is called a raw type.

@@ -1,0 +1,8 @@
+1 static int count = 20;
+2 static int[] squares;
+3 static {  // a static initializer
+4     squares = new int[count];
+5     for (int i = 0; i < count; i++)
+6         squares[i] = i * i;
+7 }
+8 static int x = squares[5];  // x is assigned the value 25

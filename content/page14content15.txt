@@ -1,0 +1,1 @@
+All the conditions are evaluated when if is reached, no matter what the result of the condition is, after the execution of the if block:

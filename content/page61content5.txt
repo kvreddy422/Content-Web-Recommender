@@ -1,0 +1,1 @@
+@SuppressWarnings(..) SuppressWarnings tells the compiler not to report on some, or all, types of warnings. It can be applied to a type, a method or a variable. [3]

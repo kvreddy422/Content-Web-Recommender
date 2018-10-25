@@ -1,0 +1,5 @@
+$ java SimpleDivisionOperation 1 0
+2
+Exception in thread "main" java.lang.ArithmeticException: You can't divide by zero!
+at SimpleDivisionOperation.divide(SimpleDivisionOperation.java:14)
+at SimpleDivisionOperation.main(SimpleDivisionOperation.java:8)

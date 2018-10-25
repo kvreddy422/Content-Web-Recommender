@@ -1,0 +1,4 @@
+1 public StackTraceElement(String declaringClass,
+2                          String methodName,
+3                          String fileName,
+4                          int lineNumber);

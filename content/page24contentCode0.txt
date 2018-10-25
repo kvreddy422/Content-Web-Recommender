@@ -1,0 +1,4 @@
+1 package business;
+2 
+3 public class BusinessClass {
+4 }

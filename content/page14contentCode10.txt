@@ -1,0 +1,11 @@
+1 int i = -1;
+ 2 switch(i) {
+ 3     case -1:
+ 4     case 1:
+ 5         // i is -1, so it will fall through to this case and execute this code
+ 6         System.out.println("i is 1 or -1");
+ 7         break;
+ 8     case 0:
+ 9         // The break command is used before this case, so if i is 1 or -1, this will not execute
+10         System.out.println("i is 0");
+11 }

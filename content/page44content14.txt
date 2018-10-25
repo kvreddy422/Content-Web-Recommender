@@ -1,0 +1,1 @@
+We need to create a class for each way of ordering. It has to implement the Comparator interface.

@@ -1,0 +1,20 @@
+1 import java.util.Collection;   // Interface
+ 2 import java.util.ArrayList;    // Implementation
+ 3 
+ 4 public class CollectionProgram {
+ 5 
+ 6   public static void main(String[] args) {
+ 7     Collection myCollection = new ArrayList();
+ 8     myCollection.add("1");
+ 9     myCollection.add("2");
+10     myCollection.add("3");
+11     System.out.println("The collection contains " + myCollection.size() + " item(s).");
+12 
+13     myCollection.clear();
+14     if (myCollection.isEmpty()) {
+15       System.out.println("The collection is empty.");
+16     } else {
+17       System.out.println("The collection is not empty.");
+18     }
+19   }
+20 }

@@ -1,0 +1,6 @@
+1 int one = '1';
+2 int zero = '0';
+3 
+4 System.out.println("  3? " + (one + '2' + zero));
+5 System.out.println("102? " + 100 + '2' + 0);
+6 System.out.println("102? " + (100 + '2' + 0));

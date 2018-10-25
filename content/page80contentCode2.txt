@@ -1,0 +1,7 @@
+Access all the methods
+Method Name: getSecretCode
+Return type: class java.lang.String
+It's a secret
+Access all the fields
+Field Name: secretCode
+It's a secret

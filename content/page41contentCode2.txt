@@ -1,0 +1,28 @@
+1 import java.util.ArrayList;
+ 2 import java.util.Calendar;
+ 3 import java.util.Collection;
+ 4 import java.util.Date;
+ 5 import java.util.GregorianCalendar;
+ 6 
+ 7 public class SevenNextDays {
+ 8 
+ 9   public static void main(String[] args) {
+10    
+11     // The calendar is set at the current date: today
+12     Calendar calendar = new GregorianCalendar();
+13 
+14     Collection collectionOfDays = new ArrayList();
+15     Date currentDate = new Date();
+16     for (int i = 0; i < 7; ++i) {
+17       // The calendar is now set to the next day
+18       calendar.add(Calendar.DATE, 1);
+19       currentDate.setTime(calendar.getTimeInMillis());
+20 
+21       collectionOfDays.add(currentDate);
+22     }
+23 
+24     for (Object oneDay : collectionOfDays) {
+25       System.out.println("The next day is: " + oneDay);
+26     }
+27   }
+28 }

@@ -1,0 +1,14 @@
+class-declaration ::= [access-modifiers] class identifier
+                      [extends-clause] [implements-clause] 
+                      class-body
+
+extends-clause ::= extends class-name
+implements-clause ::= implements interface-names 
+interface-names ::= interface-name [, interface-names]
+class-body ::= { [member-declarations] }
+member-declarations = member-declaration [member-declarations]
+member-declaration = field-declaration 
+                     | initializer 
+                     | constructor 
+                     | method-declaration
+                     | class-declaration

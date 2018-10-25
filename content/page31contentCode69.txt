@@ -1,0 +1,3 @@
+LinkedList list = new LinkedList();
+int[] intArray = new int[10];
+String[][] stringMatrix = new String[5][10];

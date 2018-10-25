@@ -1,0 +1,1 @@
+To instantiate a BigInteger, you can create it from either byte array, or from a string. For example:

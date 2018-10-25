@@ -1,0 +1,1 @@
+In the above example the getPersonInfoById method returns an object reference that contains both values of the name and the age. See below how you may use that object:

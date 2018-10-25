@@ -1,0 +1,1 @@
+With BlueJ just click on Tools, Preferences, Libraries, and add the .jar one by one.

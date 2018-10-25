@@ -1,0 +1,7 @@
+1 /**
+2  *  A class to give an <b>example</b> of HTML documentation.
+3  */
+4 public class Example {
+5     /** ...Documentation of a member with the type integer named example... */
+6     public int example;
+7 }

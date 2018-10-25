@@ -1,0 +1,1 @@
+It may also be sometimes useful to create substrings, or strings using the order of letters from an existing string. This can be done in two methods.

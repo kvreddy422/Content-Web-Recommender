@@ -1,0 +1,1 @@
+expression1 is a boolean that will throw the assertion if it is false. When it is thrown, the assertion error exception is created with the parameter expression2 (if applicable).

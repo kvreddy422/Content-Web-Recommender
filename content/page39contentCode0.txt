@@ -1,0 +1,9 @@
+1 public class OuterClass {
+2    private String outerInstanceVar;
+3 
+4    public class InnerClass {
+5       public void printVars() {
+6          System.out.println("Print Outer Class Instance Var.:" + outerInstanceVar);
+7       }
+8    }
+9 }

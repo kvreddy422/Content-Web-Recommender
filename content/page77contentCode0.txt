@@ -1,0 +1,13 @@
+1 public static void invokeMain()
+ 2    throws ClassNotFoundException,
+ 3    	ExceptionInInitializerError,
+ 4    	IllegalAccessException,
+ 5    	IllegalArgumentException,
+ 6    	InvocationTargetException,
+ 7    	NoSuchMethodException,
+ 8    	SecurityException {
+ 9    Class<?> distanceClass = Class.forName("Distance");
+10    String[] points = {"0", "0", "3", "4"};
+11    Method mainMethod = distanceClass.getMethod("main", String[].class);
+12    Object result = mainMethod.invoke(null, (Object) points);
+13 }

@@ -1,0 +1,10 @@
+1 String s = null;
+ 2 while (something) {
+ 3     if (something2) {
+ 4         s = "yep";
+ 5     }
+ 6 }
+ 7 
+ 8 if (s != null) {
+ 9     something3(s);
+10 }

@@ -1,0 +1,6 @@
+1 public class Car extends Vehicle {
+2     public Car() {
+3         this.speed = 90;
+4         this.numberOfSeats = 5;
+5     }
+6 }

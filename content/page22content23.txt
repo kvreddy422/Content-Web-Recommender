@@ -1,0 +1,1 @@
+The first method involves creating a substring out of the characters of a string from a given index to the end:

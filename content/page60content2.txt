@@ -1,0 +1,1 @@
+If a member is annotated with a type itself marked as @Documented, then that member will be documented as annotating that type.

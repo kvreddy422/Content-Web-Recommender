@@ -1,0 +1,1 @@
+If the state variable is null, you get a NullPointerException in the first example, but not in the second one.

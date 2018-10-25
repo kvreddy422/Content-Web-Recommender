@@ -1,0 +1,2 @@
+1 int  i = 65;
+2 long l = i;

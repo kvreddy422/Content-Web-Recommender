@@ -1,0 +1,5 @@
+switch(<variable>) {
+  case <result>: <statements>; break;
+  case <result>: <statements>; break;
+  default: <statements>; break;
+}

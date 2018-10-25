@@ -1,0 +1,1 @@
+In Java, this mechanism is enabled by the extends keyword. Example:

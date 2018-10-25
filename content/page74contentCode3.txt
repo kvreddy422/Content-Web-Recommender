@@ -1,0 +1,7 @@
+1 Label nameLabel = new Label("Name: ");
+2 
+3 ...
+4 
+5 public void init() {
+6     add(nameLabel);
+7 }

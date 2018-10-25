@@ -1,0 +1,9 @@
+Contents of al : [A, B, C, A, D, A, E]
+Index of D : 4
+Index of A : 0
+Index of A : 5
+Element at Second Index : C
+Element at Sixth Index : E
+Contents of al : [A, B, C, B, D, A, E]
+ArrayList contain D : true
+ArrayList contain F : false

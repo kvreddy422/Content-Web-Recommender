@@ -1,0 +1,1 @@
+Similar caveats apply to newline characters in slash-slash comments.

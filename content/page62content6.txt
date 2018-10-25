@@ -1,0 +1,1 @@
+As of version 5, Java provides a class in the java.util package called Scanner that simplifies keyboard input.

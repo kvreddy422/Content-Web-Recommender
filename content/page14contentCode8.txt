@@ -1,0 +1,14 @@
+1 int i = 3;
+ 2 switch(i) {
+ 3     case 1:
+ 4         // i doesn't equal 1, so this code won't execute
+ 5         System.out.println("i equals 1");
+ 6         break;
+ 7     case 2:
+ 8         // i doesn't equal 2, so this code won't execute
+ 9         System.out.println("i equals 2");
+10         break;
+11     default:
+12         // i has not been handled so far, so this code will execute
+13         System.out.println("i equals something other than 1 or 2");
+14 }

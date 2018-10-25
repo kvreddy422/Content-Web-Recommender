@@ -1,0 +1,1 @@
+The while loop iterates a block of code while the condition it specifies is true.

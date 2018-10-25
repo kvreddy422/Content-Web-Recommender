@@ -1,0 +1,1 @@
+The following is a declaration of a private boolean field named initialized, and its use in a method named synchronizeConnection.

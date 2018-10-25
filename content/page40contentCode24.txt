@@ -1,0 +1,4 @@
+1 public <T> void method(T argument) {
+2   T variable;
+3   …
+4 }

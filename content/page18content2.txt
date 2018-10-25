@@ -1,0 +1,1 @@
+All the primitive types have a fixed size. Thus, the primitive types are limited to a range of values. A smaller primitive type (byte) can contain less values than a bigger one (long).

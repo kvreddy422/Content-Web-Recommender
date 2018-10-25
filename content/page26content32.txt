@@ -1,0 +1,1 @@
+Notice that in the expression starting with if ((D == 0), I have to use OR instead of the || because of a bug in the source template.

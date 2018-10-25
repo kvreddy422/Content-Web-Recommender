@@ -1,0 +1,1 @@
+The box 6.1 below talks about the various exception classes within the java.lang package.

@@ -1,0 +1,8 @@
+switch ( <integer-var> )
+{
+   case <label1>: <statements>;
+   case <label2>: <statements>;
+   ...
+   case <labeln>: <statements>;
+   default: <statements>;
+}

@@ -1,0 +1,1 @@
+The above code is valid because the Animal class is a supertype of the Dog class. Use of a class that is not a supertype would cause a compilation error.

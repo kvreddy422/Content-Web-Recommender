@@ -1,0 +1,23 @@
+1 public class Assignments {
+ 2   public static void main(String[] args) {
+ 3     int x = 5;
+ 4     x = 3;
+ 5     System.out.println("Assignment                                       (x = 3) : " + x);
+ 6 
+ 7     x = 5;
+ 8     x += 5;
+ 9     System.out.println("Assign x plus another integer to itself          (x += 5): " + x);
+10 
+11     x = 5;
+12     x -= 4;
+13     System.out.println("Assign x minus another integer to itself         (x -= 4): " + x);
+14 
+15     x = 5;
+16     x *= 6;
+17     System.out.println("Assign x multiplied by another integer to itself (x *= 6): " + x);
+18 
+19     x = 5;
+20     x /= 5;
+21     System.out.println("Assign x divided by another integer to itself    (x /= 5): " + x);
+22   }
+23 }

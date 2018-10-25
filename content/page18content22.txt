@@ -1,0 +1,1 @@
+Floating-point math never throws exceptions. Dividing a non-zero value by 0 equals infinity. Dividing a non-infinite value by infinity equals 0.

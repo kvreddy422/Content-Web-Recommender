@@ -1,0 +1,60 @@
+1 import java.util.*;
+ 2 
+ 3 public class LuckySevens {
+ 4     public static void main(String[] args) {
+ 5         Scanner in = new Scanner(System.in);
+ 6         Random random = new Random();
+ 7         String input;
+ 8         int startingCash, cash, maxCash, rolls, roll;
+ 9 
+10         // Loop until "quit" is input
+11         while (true) {
+12             System.out.print("Enter the amount of cash to start with (or \"quit\" to quit): ");
+13 
+14             input = in.nextLine();
+15 
+16             // Check if user wants to exit
+17             if (input.toLowerCase().equals("quit")) {
+18                 System.out.println("\tGoodbye.");
+19                 System.exit(0);
+20             }
+21 
+22             // Get number
+23             try {
+24                 startingCash = Integer.parseInt(input);
+25             } catch (NumberFormatException ex) {
+26                 System.out.println("\tPlease enter a positive integer greater than 0.");
+27                 continue;
+28             }
+29 
+30             // You have to start with some money!
+31             if (startingCash <= 0) {
+32                 System.out.println("\tPlease enter a positive integer greater than 0.");
+33                 continue;
+34             }
+35 
+36             cash = startingCash;
+37             maxCash = cash;
+38             rolls = 0;
+39             roll = 0;
+40 
+41             // Here is the game loop
+42             for (; cash > 0; rolls++) {
+43                roll = random.nextInt(6) + 1;
+44                roll += random.nextInt(6) + 1;
+45 
+46                 if (roll == 7)
+47                     cash += 4;
+48                 else
+49                     cash -= 1;
+50 
+51                 if (cash > maxCash)
+52                     maxCash = cash;
+53             }
+54 
+55             System.out.println("\tYou start with $" + startingCash + ".\n"
+56                     + "\tYou peak at $" + maxCash + ".\n"
+57       + "\tAfter " + rolls + " rolls, you run out of cash.");
+58         }
+59     }
+60 }

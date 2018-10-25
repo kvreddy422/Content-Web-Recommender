@@ -1,0 +1,10 @@
+1 private void aMethod(int a, int b) {
+ 2   int c = 0;
+ 3   if (a > 0) {
+ 4     c = a;
+ 5     return;
+ 6   }
+ 7   int c = c + b;
+ 8   return;
+ 9   int c = c * 2;
+10 }

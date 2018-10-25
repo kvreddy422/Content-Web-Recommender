@@ -1,0 +1,10 @@
+@Inherited
+@interface ForEveryone { }
+
+@interface JustForMe { }
+
+@ForEveryone
+@JustForMe
+class Superclass { }
+
+class Subclass extends Superclass { }

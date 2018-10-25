@@ -1,0 +1,3 @@
+protected int getAge();
+
+protected void setYearOfBirth(int year);

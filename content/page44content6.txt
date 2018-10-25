@@ -1,0 +1,1 @@
+After the equals() method is overriden, two objects from the same class can be compared like this:

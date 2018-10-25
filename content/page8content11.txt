@@ -1,0 +1,1 @@
+It is possible that you have the Java runtime (JRE), but not the JDK. In that case the javac program won't be found, but the java -version will print the JRE version number.

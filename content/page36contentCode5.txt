@@ -1,0 +1,9 @@
+1 public void logIt(String param) {
+2   ...
+3 }
+4 
+5 public String logIt(String param) {
+6   String retValue;
+7   ...
+8   return retValue;
+9 }

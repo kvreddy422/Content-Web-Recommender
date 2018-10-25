@@ -1,0 +1,13 @@
+1 HashTable cacheTemplate = new HashTable();
+ 2 ...
+ 3 /** Clone Customer object for performance reason */
+ 4 public Customer createCustomerObject() {
+ 5    // See if a template object exists in our cache
+ 6    Customer template = cacheTemplate.get("Customer");
+ 7    if (template == null) {
+ 8       // Create template
+ 9       template = new Customer();
+10       cacheTemplate.put("Customer", template);
+11    }
+12    return template.clone();
+13 }

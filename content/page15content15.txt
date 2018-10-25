@@ -1,0 +1,1 @@
+The for loop is like a template version of the while loop. The alternative code using a while loop would be as follows:

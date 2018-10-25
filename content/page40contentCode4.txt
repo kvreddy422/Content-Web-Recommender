@@ -1,0 +1,2 @@
+1 Repository<Integer> arithmeticRepository = new Repository<Integer>();
+2 arithmeticRepository.setItem("Hello!");

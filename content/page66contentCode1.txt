@@ -1,0 +1,21 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class MyCanvas extends Canvas {
+    public MyCanvas() {
+    }
+
+    public void paint(Graphics graphics) {
+    }
+
+    public static void main(String[] args) {
+        // We initialize our class here
+        MyCanvas canvas = new MyCanvas();
+        JFrame frame = new JFrame();
+        frame.setSize(400, 400);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // Here we add it to the frame
+        frame.getContentPane().add(canvas);
+        frame.setVisible(true);
+    }
+}

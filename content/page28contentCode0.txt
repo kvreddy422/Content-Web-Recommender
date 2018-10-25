@@ -1,0 +1,1 @@
+1   int randomNumber = n + (int)(Math.random() * ( m - n ));

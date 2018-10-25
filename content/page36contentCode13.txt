@@ -1,0 +1,19 @@
+1 public class MyClass {
+ 2 
+ 3   private String memberField;
+ 4  
+ 5   /**
+ 6    * MyClass Constructor, there is no input parameter
+ 7    */
+ 8   public MyClass() {
+ 9     MyClass("Default Value");
+10   }
+11  
+12   /**
+13    * MyClass Constructor, there is one input parameter
+14    */
+15   public MyClass(String param1) {
+16     memberField = param1;
+17     ...
+18   }
+19 }

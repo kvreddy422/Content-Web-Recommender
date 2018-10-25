@@ -1,0 +1,1 @@
+long <variable-name> = <integer-value>;

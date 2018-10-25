@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.Exception: Horrible exception!
+at NestingExceptionExample.main(NestingExceptionExample.java:9)
+Caused by: java.lang.ClassCastException: [Ljava.lang.String; incompatible with [Ljava.lang.Integer;
+at NestingExceptionExample.main(NestingExceptionExample.java:7)

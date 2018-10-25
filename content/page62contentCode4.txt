@@ -1,0 +1,5 @@
+Scanner kbdIn = new Scanner(System.in); // Instantiating a new Scanner object
+System.out.print("Enter your name: "); // Printing out the prompt
+String name = kbdIn.nextLine(); // Reading a line of input (until the user hits enter) from the keyboard
+// and putting it in a String variable called name
+System.out.println("Welcome, " + name); // Printing out welcome, followed by the user's name

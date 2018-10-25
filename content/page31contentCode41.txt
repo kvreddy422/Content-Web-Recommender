@@ -1,0 +1,5 @@
+Before the try block
+Enter inside the try block
+Handle the Exception1
+Execute the finally block
+Continue

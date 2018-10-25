@@ -1,0 +1,1 @@
+On the + operation a new String object is created at each iteration. Suppose words contains the elements ["Foo", "Bar", "Bam", "Baz"]. At runtime, the method creates thirteen Strings:

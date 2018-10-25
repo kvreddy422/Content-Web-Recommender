@@ -1,0 +1,1 @@
+The String class also allows for the modification of cases. The two methods that make this possible are toLowerCase() and toUpperCase().

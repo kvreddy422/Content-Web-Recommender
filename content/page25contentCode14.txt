@@ -1,0 +1,16 @@
+1 public class Answer21 {
+ 2   public static void main(String[] args) {
+ 3     String[][] alphabet = {{"a", "b", "c", "d", "e"},
+ 4                           {"f", "g", "h", "i", "j"},
+ 5                           {"k", "l", "m", "n", "o"},
+ 6                           {"p", "q", "r", "s", "t"},
+ 7                           {"u", "v", "w", "x", "y"},
+ 8                           {"z"}};
+ 9 
+10     for (int i = 0; i < alphabet.length; i++) {
+11       for (int j = 0; j < alphabet[i].length; j++) {
+12         System.out.println(alphabet[i][j]);
+13       }
+14     }
+15   }
+16 }

@@ -1,0 +1,1 @@
+Unchecked, uncaught or runtime exceptions are exceptions that can be thrown without being caught or declared:

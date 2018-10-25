@@ -1,0 +1,1 @@
+1 business.BusinessClass myBusinessClass = new business.BusinessClass();

@@ -1,0 +1,5 @@
+1 private static int count = 0;
+2 
+3 public static int getNewInteger() {
+4   return count++;
+5 }

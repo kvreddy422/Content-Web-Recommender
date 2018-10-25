@@ -1,0 +1,8 @@
+1 public class Customer implements Cloneable {
+2  ...
+3     public Object clone() throws CloneNotSupportedException {
+4        Object obj = super.clone();
+5 
+6        return obj;
+7     }
+8 }

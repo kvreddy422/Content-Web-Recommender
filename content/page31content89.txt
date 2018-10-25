@@ -1,0 +1,1 @@
+You can see that we have passed in the try block, then we have executed the finally block and we have continued the execution. Now, a caught exception is thrown:

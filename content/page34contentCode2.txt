@@ -1,0 +1,5 @@
+1 public class Plane extends Vehicle {
+2     public Plane() {
+3         super();
+4     }
+5 }

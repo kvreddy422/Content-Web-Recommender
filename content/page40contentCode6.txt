@@ -1,0 +1,4 @@
+1 public <D> D assign(Collection<D> generic, D obj) {
+2   generic.add(obj);
+3   return obj;
+4 }

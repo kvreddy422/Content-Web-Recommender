@@ -1,0 +1,5 @@
+1 {
+2     int a = 10;
+3     int b = 20;
+4     int result = a + b;
+5 }

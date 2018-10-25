@@ -1,0 +1,1 @@
+This class is named Distance, so using your favorite editor or Java IDE, first create a file named Distance.java, then copy the source below, paste it into the file and save the file.

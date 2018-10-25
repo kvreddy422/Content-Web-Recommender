@@ -1,0 +1,17 @@
+1 public class StackTraceExample {
+ 2   public static void main(String[] args) {
+ 3     method1();
+ 4   }
+ 5 
+ 6   public static void method1() {
+ 7     method11();
+ 8   }
+ 9 
+10   public static void method11() {
+11     method111();
+12   }
+13 
+14   public static void method111() {
+15     throw new NullPointerException("Fictitious NullPointerException");
+16   }
+17 }

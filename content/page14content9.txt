@@ -1,0 +1,1 @@
+An else-if block may be used when multiple conditions need to be checked. else-if statements come after the if block, but before the else block. The structure of an if block is as follows:

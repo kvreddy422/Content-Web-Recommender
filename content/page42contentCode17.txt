@@ -1,0 +1,22 @@
+public class ArrayListDemo {
+		public static void main(String[] args) {
+	
+		ArrayList al = new ArrayList();
+
+		al.add("A");
+		al.add("B");
+		al.add("C");
+		al.add("E");
+		al.add("F");
+	
+		al.remove(2);
+		al.remove("F");
+		
+		al.set(1, "G");
+		al.add("H");
+		al.set(3, "I");
+		System.out.println("Size of al : " + al.size());
+		System.out.println("Contents of al : " + al);
+
+	}
+  }

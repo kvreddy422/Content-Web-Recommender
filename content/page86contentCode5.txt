@@ -1,0 +1,12 @@
+JNIEXPORT jint JNICALL Java_IntArray_sumArray
+        (JNIEnv *env, jobject obj, jintArray arr) {
+    jint buf[10];
+    jint i, sum = 0;
+    // This line is necessary, since Java arrays are not guaranteed
+    // to have a continuous memory layout like C arrays.
+    env->GetIntArrayRegion(arr, 0, 10, buf);
+    for (i = 0; i < 10; i++) {
+        sum += buf[i];
+    }
+    return sum;
+}

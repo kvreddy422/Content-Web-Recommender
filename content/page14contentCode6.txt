@@ -1,0 +1,1 @@
+1 String answer = (p < 0.05)? "reject" : "keep";

@@ -1,0 +1,1 @@
+If port is not specified the default 1099 is used. The client will need to connect to this port to access the Registry.

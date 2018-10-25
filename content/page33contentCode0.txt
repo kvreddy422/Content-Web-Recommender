@@ -1,0 +1,33 @@
+1 public class Employee {              // This defines the Employee class.
+ 2                                      // The public modifier indicates that
+ 3                                      // it can be accessed by any other class
+ 4 
+ 5     private static int nextID;       // Define a static field. Only one copy of this will exist,
+ 6                                      // no matter how many Employees are created.
+ 7 
+ 8     private int myID;                // Define fields that will be stored  
+ 9     private String myName;           // for each Employee. The private modifier indicates that
+10                                      // only code inside the Employee class can access it.
+11  
+12     public Employee(String name) {   // This is a constructor. You can pass a name to the constructor
+13                                      // and it will give you a newly created Employee object.
+14         myName = name;
+15         myID = nextID;               // Automatically assign an ID to the object
+16         nextID++;                    // Increment the ID counter
+17     }
+18  
+19     public String getName() {        // This is a member method that returns the
+20                                      // Employee object's name.
+21         return myName;               // Note how it can access the private field myName.
+22     }
+23  
+24     public int getID() {             // This is another member method.
+25    
+26         return myID;  
+27     }
+28  
+29     public static int getNextID() {  // This is a static method that returns the next ID
+30                                      // that will be assigned if another Employee is created.
+31         return nextID;
+32     }
+33 }

@@ -1,0 +1,14 @@
+1     TextField t1 = new TextField();                // Blank
+ 2     TextField t2 = new TextField(5);               // Blank in 5 columns
+ 3     TextField t3 = new TextField("Input here");    // Predefined text
+ 4     TextField t4 = new TextField("Input here", 5); // Predefined text in 5 columns
+ 5 
+ 6     ...
+ 7 
+ 8     public void init() {
+ 9         add(t1);
+10         add(t2);
+11         add(t3);
+12         add(t4);
+13         ...
+14     }

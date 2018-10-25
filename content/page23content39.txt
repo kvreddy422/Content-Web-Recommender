@@ -1,0 +1,1 @@
+The second point means that two different objects can have the same hash code so two objects with the same hash code are not necessarily the same!

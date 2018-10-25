@@ -1,0 +1,1 @@
+This is an optional part of the switch statement, which only executes if none of the above cases are matched.

@@ -1,0 +1,1 @@
+Each primitive type has a class wrapper:

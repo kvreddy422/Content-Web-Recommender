@@ -1,0 +1,2 @@
+1 // Create "Animal Collection" variable
+2 Collection<? extends Animal> animalColl = new ArrayList<Dog>();

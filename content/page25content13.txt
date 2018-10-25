@@ -1,0 +1,1 @@
+Note that the length of a two-dimensional array is the number of one-dimensional arrays it contains. In the above example, weirdTwoDimArray.length is 3, whereas weirdTwoDimArray[2].length is 5.

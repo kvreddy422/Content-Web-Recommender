@@ -1,0 +1,3 @@
+Inside main method! Invoking aMethod!
+Inside aMethod!
+Back in main method!

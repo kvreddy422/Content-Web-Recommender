@@ -1,0 +1,1 @@
+1 String str = "This is string literal";

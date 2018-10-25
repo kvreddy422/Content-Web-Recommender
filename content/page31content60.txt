@@ -1,0 +1,1 @@
+The java.lang.Double class is the nominal wrapper class when you need to store a double value but an object reference is required.

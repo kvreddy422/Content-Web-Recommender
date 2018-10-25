@@ -1,0 +1,13 @@
+import java.awt.*;
+
+public class MyCanvas extends Canvas {
+
+    public MyCanvas() {
+        //...
+    }
+
+    public void paint(Graphics graphics) {
+        /* We override the method here. The graphics
+         * code comes here within the method body. */
+    }
+}

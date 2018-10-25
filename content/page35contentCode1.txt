@@ -1,0 +1,5 @@
+1 public class ClassWithInterface implements SimpleInterface {
+2     int method1(String parameter) {
+3         return 0;
+4     }
+5 }

@@ -1,0 +1,1 @@
+Save this file on a folder. As the <applet/> markup is calling a Java class called HelloWorld, our class should be called HelloWorld.java:

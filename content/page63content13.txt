@@ -1,0 +1,1 @@
+In the following example, we store the current time in an already existing file called log.txt located in the same folder than the class.

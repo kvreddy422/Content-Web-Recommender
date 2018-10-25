@@ -1,0 +1,1 @@
+for (type item : collection) statement;

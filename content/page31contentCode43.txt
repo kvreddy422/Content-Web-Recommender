@@ -1,0 +1,3 @@
+Before the try block
+Enter inside the try block
+Execute the finally block

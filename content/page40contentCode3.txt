@@ -1,0 +1,7 @@
+1 Repository<Integer> arithmeticRepository = new Repository<Integer>();
+2 arithmeticRepository.setItem(new Integer(1));
+3 Integer number = arithmeticRepository.getItem();
+4 
+5 Repository<String> textualRepository = new Repository<String>();
+6 textualRepository.setItem("Hello!");
+7 String message = textualRepository.getItem();

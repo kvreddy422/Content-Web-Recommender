@@ -1,0 +1,29 @@
+1 public class Question8<T> {
+ 2   public T item;
+ 3  
+ 4   public T getItem() {
+ 5     return item;
+ 6   }
+ 7  
+ 8   public void setItem(T newItem) {
+ 9     item = newItem;
+10   }
+11 
+12   public static void main(String[] args) {
+13     Question8<String> aQuestion = new Question8<String>();
+14     aQuestion.setItem("Open your mind.");
+15     aQuestion.display(aQuestion.getItem());
+16   }
+17 
+18   public void display(String parameter) {
+19     System.out.println("Here is the text: " + parameter);
+20   }
+21 
+22   public void display(Integer parameter) {
+23     System.out.println("Here is the number: " + parameter);
+24   }
+25 
+26   public void display(Object parameter) {
+27     System.out.println("Here is the object: " + parameter);
+28   }
+29 }

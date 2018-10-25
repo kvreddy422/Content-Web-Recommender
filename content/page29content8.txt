@@ -1,0 +1,1 @@
+π may also be represented in Java as the Unicode escape sequence \u03C0. Thus, the following is a valid, but not very readable, declaration and assignment:

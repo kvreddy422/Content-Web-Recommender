@@ -1,0 +1,1 @@
+Below is an example of an immutable public class named Length which maintains private instance fields named units and magnitude but provides a public constructor and two public accessor methods.

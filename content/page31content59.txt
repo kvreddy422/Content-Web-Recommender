@@ -1,0 +1,1 @@
+double is a keyword which designates the 64 bit float primitive type.

@@ -1,0 +1,1 @@
+long is a keyword which designates the 64 bit signed integer primitive type.

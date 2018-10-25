@@ -1,0 +1,1 @@
+You have to create an interface that defines the method printLog(String) and makes ConsoleLogger and FileLogger implement it:

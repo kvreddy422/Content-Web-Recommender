@@ -1,0 +1,1 @@
+... then the JDK may not be installed or it may not be in your PATH.

@@ -1,0 +1,1 @@
+Sometimes it is useful to split a string into separate strings, based on a regular expressions. The String class has a split() method, since Java 1.4, that will return a String array:

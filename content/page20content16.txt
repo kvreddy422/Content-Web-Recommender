@@ -1,0 +1,1 @@
+Within string and character literals, the backslash character can be used to escape special characters, such as unicode escape sequences, or the following special characters:

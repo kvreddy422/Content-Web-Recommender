@@ -1,0 +1,1 @@
+It is also possible to let an enumeration implement interfaces other than java.lang.Comparable and java.io.Serializable, which are already implicitly implemented by each enumeration:

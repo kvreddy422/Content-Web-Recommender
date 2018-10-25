@@ -1,0 +1,11 @@
+1 Map<Integer, String> map = new TreeMap<Integer, String>();
+ 2 
+ 3 map.put(new Integer(1), "Watch");
+ 4 map.put(new Integer(2), "out");
+ 5 map.put(new Integer(3), "!");
+ 6 
+ 7 map.remove("2");
+ 8 
+ 9 for (String value : map.values()) {
+10   System.out.println(value);
+11 }

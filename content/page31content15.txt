@@ -1,0 +1,1 @@
+Assertions are enabled with the Java -ea or -enableassertions runtime option. See your Java environment documentation for additional options for controlling assertions.

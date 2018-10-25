@@ -1,0 +1,5 @@
+1 MyObject object = new MyObject();
+2 MyObject.ReturnObject person = object.getPersonInfoById(102);
+3 
+4 System.out.println("Person Name=" + person.getName());
+5 System.out.println("Person Age =" + person.getAge());

@@ -1,0 +1,1 @@
+The returned string is assigned to the variable. It does the job as the trim() method has created a new String instance.

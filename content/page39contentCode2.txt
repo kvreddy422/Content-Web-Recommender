@@ -1,0 +1,7 @@
+1 public class OuterClass {
+2    public void method() {
+3       class InnerClass {
+4  
+5       }
+6    }
+7 }

@@ -1,0 +1,1 @@
+The classes Integer and String belongs to the package java.lang but they don't need to be imported as the java.lang package is implicitly imported in all classes.

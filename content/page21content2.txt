@@ -1,0 +1,1 @@
+We can declare that the method does not return anything using the void Java keyword. For example:

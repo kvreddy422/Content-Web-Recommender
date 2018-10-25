@@ -1,0 +1,12 @@
+1 int a = 5;
+ 2 if (a > 0) {
+ 3     // a is greater than 0, so this statement will execute
+ 4     System.out.println("a is positive");
+ 5     a = -5;
+ 6 } else if (a < 0) {
+ 7     // a WAS greater than 0, so this statement will not execute
+ 8     System.out.println("a is negative");
+ 9 } else {
+10     // a does not equal 0, so this statement will not execute
+11     System.out.println("a is zero");
+12 }

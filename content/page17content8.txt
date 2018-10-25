@@ -1,0 +1,1 @@
+In the example above, we created five variables: a, b, c, d and e. All these variables have the same data type int (integer). However, can you tell what kind of variable each one is?

@@ -1,0 +1,21 @@
+Heads
+Tails
+Tails
+Tails
+Heads
+Tails
+Heads
+Heads
+Heads
+Heads
+Heads
+Heads
+Tails
+Tails
+Tails
+Tails
+Heads
+Tails
+Tails
+Tails
+There were 9 heads and 11 tails

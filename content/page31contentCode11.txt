@@ -1,0 +1,6 @@
+1 char oneChar1 = 'A';
+2 char oneChar2 = 65;
+3 char oneChar3 = '\u0041';
+4 System.out.println(oneChar1);
+5 System.out.println(oneChar2);
+6 System.out.println(oneChar3);

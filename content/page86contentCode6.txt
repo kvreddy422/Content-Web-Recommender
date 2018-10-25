@@ -1,0 +1,2 @@
+JNIEnv *env;
+(*g_vm)->AttachCurrentThread (g_vm, (void **) &env, NULL);

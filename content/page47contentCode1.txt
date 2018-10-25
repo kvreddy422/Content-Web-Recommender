@@ -1,0 +1,11 @@
+1 public long getLastModified(HttpServletRequest req) {
+ 2   try {
+ 3     ...
+ 4     return getTimeStamp();
+ 5     ...
+ 6   } catch(RuntimeException e) {
+ 7     log.error("Error during handling post request", e);
+ 8 
+ 9     throw e;
+10   }
+11 }

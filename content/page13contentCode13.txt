@@ -1,0 +1,7 @@
+if (condition 1) {
+   do statements here if condition 1 is true
+} else if (condition 2) {
+   do statements here if condition 1 is false and condition 2 is true
+} else {
+  do statements here if neither condition 1 nor condition 2 is true
+}

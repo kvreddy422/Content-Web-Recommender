@@ -1,0 +1,5 @@
+public void method()
+ {
+   //...
+   return;   // -- In this case the return is optional
+ }

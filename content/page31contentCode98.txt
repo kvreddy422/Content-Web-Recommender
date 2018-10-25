@@ -1,0 +1,4 @@
+1 public synchronized void method() {
+2    // Thread.currentThread() has a lock on this object, i.e. a synchronized method is the same as
+3    // calling { synchronized(this) {…} }.
+4 }

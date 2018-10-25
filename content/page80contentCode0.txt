@@ -1,0 +1,7 @@
+1 public class Secret {
+2   private String secretCode = "It's a secret";
+3  
+4   private String getSecretCode() {
+5     return secretCode;     
+6   }
+7 }

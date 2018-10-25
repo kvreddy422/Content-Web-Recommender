@@ -1,0 +1,1 @@
+To generate random numbers the Math.random() method can be used, which returns a double, greater than or equal to 0.0 and less than 1.0.

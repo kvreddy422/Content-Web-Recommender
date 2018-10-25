@@ -1,0 +1,1 @@
+In addition, hyperbolic functions are available: Math.sinh(x), Math.cosh(x), and Math.tanh(x).

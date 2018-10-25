@@ -1,0 +1,11 @@
+public class MyCanvas extends Canvas {
+    public void init() {
+        setFont("Times New Roman", Font.PLAIN, 24);
+        setColor(Color.white);
+        setBackGroundColor(Color.black);
+        setLayout(new GridLayout());
+ 
+        add(label);
+        add(button);
+    }
+}

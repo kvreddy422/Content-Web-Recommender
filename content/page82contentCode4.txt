@@ -1,0 +1,1 @@
+javac MyClass.java -classpath ojdbc7.jar

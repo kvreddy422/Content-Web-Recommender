@@ -1,0 +1,1 @@
+In code listing 3.14, i is visible within the entire method1 method but not in the method2 and the main methods.

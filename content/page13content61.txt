@@ -1,0 +1,1 @@
+Beware not to write statements after a throw statement which would not be executed too! Each throw statement is ended by a semi-colon (;).

@@ -1,0 +1,1 @@
+Note that the instanceof operator can also be applied to interfaces. For example, if the example above was enhanced with the interface

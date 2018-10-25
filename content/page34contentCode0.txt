@@ -1,0 +1,4 @@
+1 public class Vehicle {
+2     public int speed;
+3     public int numberOfSeats;
+4 }

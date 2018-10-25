@@ -1,0 +1,23 @@
+1 package org.wikibooks.java;
+ 2 
+ 3 public class Length {
+ 4    private double magnitude;
+ 5    private String units;
+ 6 
+ 7    public Length(double magnitude, String units) {
+ 8       if ((units == null) || (units.trim().length() == 0)) {
+ 9           throw new IllegalArgumentException("non-null, non-empty units required.");
+10       }
+11 
+12       this.magnitude = magnitude;
+13       this.units = units;
+14    }
+15 
+16    public double getMagnitude() {
+17       return magnitude;
+18    }
+19 
+20    public String getUnits() {
+21       return units;
+22    }
+23 }

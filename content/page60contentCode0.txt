@@ -1,0 +1,9 @@
+@interface Secret { }
+
+@Documented
+@interface NotSecret { }
+
+@Secret
+@NotSecret
+public class Example {
+}

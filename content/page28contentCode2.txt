@@ -1,0 +1,29 @@
+1 import java.util.Random;
+ 2 
+ 3 public class CoinFlipper {
+ 4 
+ 5   public static void main(String[] args) {
+ 6     // The number of times to flip the coin
+ 7     final int TIMES_TO_FLIP = 20;
+ 8     int heads = 0;
+ 9     int tails = 0;
+10     // Create a Random object
+11     Random random = new Random();
+12     for (int i = 0; i < TIMES_TO_FLIP; i++) {
+13       // 0 or 1
+14       int result = random.nextInt(2);
+15       if (result == 1) {
+16         System.out.println("Heads");
+17         heads++;
+18       } else {
+19         System.out.println("Tails");
+20         tails++;
+21       }
+22     }
+23     System.out.println("There were "
+24             + heads
+25             + " heads and "
+26             + tails
+27             + " tails");
+28   }
+29 }

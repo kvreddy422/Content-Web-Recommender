@@ -1,0 +1,8 @@
+1 public class ClassWithVariables {
+2     public int id = 0;
+3     public static boolean isClassUsed;
+4 
+5     public void processData(String parameter) {
+6       Object currentValue = null;
+7     }
+8 }

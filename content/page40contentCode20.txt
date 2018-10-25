@@ -1,0 +1,6 @@
+1 public void addAtBottom(Collection<?> anyCollection) {
+2    Iterator<?> iterator = anyCollection.iterator();
+3    while (iterator.hasNext()) {
+4       System.out.print(iterator.next());
+5    }
+6 }

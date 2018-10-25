@@ -1,0 +1,1 @@
+When in a non-static method of the outer class, you can directly use new InnerClass(), since the class instance is implied to be this.

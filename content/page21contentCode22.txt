@@ -1,0 +1,7 @@
+1 public class MyClass {
+2   /**
+3   * MyClass Empty Constructor
+4   */
+5   public MyClass() {
+6   }
+7 }

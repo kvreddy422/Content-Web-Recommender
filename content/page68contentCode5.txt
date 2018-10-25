@@ -1,0 +1,9 @@
+...
+public class MyCanvas extends Canvas {
+    ...
+    public void paint(Graphics graphics) {
+        graphics.setColor(new Color(0,0,255));
+        graphics.drawOval(50, 50, 100, 100);
+    }
+    ...
+}

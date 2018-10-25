@@ -1,0 +1,6 @@
+1 public class Class1 {
+2     public static final int CONSTANT_OF_CLASS_1 = 9;
+3     public int myAttributeOfClass1 = 40;
+4     public void myMethodOfClass1(int i) {
+5     }
+6 }

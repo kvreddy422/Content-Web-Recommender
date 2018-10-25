@@ -1,0 +1,1 @@
+The implementor decides which values must be equal to consider two objects to be equal. For example in the below class, the name and the address must be equal but not the description.

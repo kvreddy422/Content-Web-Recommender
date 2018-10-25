@@ -1,0 +1,5 @@
+JNIEXPORT void JNICALL Java_ClassName_MethodName
+   (JNIEnv *env, jobject obj)
+ {
+     /*Implement Native Method Here*/
+ }

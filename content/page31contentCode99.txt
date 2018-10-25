@@ -1,0 +1,32 @@
+1 /**
+ 2  * The singleton class that can be instantiated only once with lazy instantiation
+ 3  */
+ 4 public class Singleton {
+ 5     /** Static class instance */
+ 6     private volatile static Singleton instance = null;
+ 7 
+ 8     /**
+ 9      * Standard private constructor
+10      */
+11     private Singleton() {
+12         // Some initialisation
+13     }
+14    
+15     /**
+16      * Getter of the singleton instance
+17      * @return The only instance
+18      */
+19     public static Singleton getInstance() {
+20         if (instance == null) {
+21             // If the instance does not exist, go in time-consuming
+22             // section:
+23             synchronized (Singleton.class) {
+24                 if (instance == null) {
+25                     instance = new Singleton();
+26                 }
+27             }
+28         }
+29 
+30         return instance;
+31     }
+32  }

@@ -1,0 +1,5 @@
+1 int squareHigherThan200 = 0;
+2 
+3 while (squareHigherThan200 * squareHigherThan200 < 200) {
+4   squareHigherThan200 = squareHigherThan200 + 1;
+5 }

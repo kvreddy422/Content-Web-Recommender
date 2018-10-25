@@ -1,0 +1,1 @@
+1 Class<?> clazz = classLoader.load("com.example.MyClass");

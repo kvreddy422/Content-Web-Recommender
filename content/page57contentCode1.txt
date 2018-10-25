@@ -1,0 +1,9 @@
+1 /**
+2  *  Get the sum of two integers.
+3  *  @param a The first integer number.
+4  *  @param b The second integer number.
+5  *  @return The value of the sum of the two given integers.
+6  */
+7 public int sum(int a, int b) {
+8     return a + b;
+9 }

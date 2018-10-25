@@ -1,0 +1,4 @@
+1     public int getAge() {
+2         assert age >= 0;
+3         return age;
+4     }

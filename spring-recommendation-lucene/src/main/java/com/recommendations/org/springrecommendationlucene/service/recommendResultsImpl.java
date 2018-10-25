@@ -18,6 +18,9 @@ import org.apache.lucene.store.RAMDirectory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.apache.lucene.analysis.core.StopAnalyzer;
+import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.tartarus.snowball.ext.EnglishStemmer;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -68,7 +71,7 @@ public class recommendResultsImpl implements recommendResults {
 
     @Override
     public List<List<String>> recommendationList(List<String> inputcommands) throws IOException, ParseException {
-        File dataDir = new File("../crawledWikiContent"); // my sample file folder path
+        File dataDir = new File("../content"); // my sample file folder path
         // Check whether the directory to be indexed exists
         if (!dataDir.exists() || !dataDir.isDirectory()) {
             throw new IOException(dataDir + " does not exist or is not a directory");
@@ -76,7 +79,7 @@ public class recommendResultsImpl implements recommendResults {
         Directory indexDir = new RAMDirectory();
 
         // Specify the analyzer for tokenizing text.
-        StandardAnalyzer analyzer = new StandardAnalyzer();
+        EnglishAnalyzer analyzer = new EnglishAnalyzer();
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
         IndexWriter writer = new IndexWriter(indexDir, config);
 

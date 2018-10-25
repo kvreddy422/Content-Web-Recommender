@@ -1,0 +1,15 @@
+1 public class MyConditionalProgram {
+ 2     public static void main (String[] args) {
+ 3       int a = 5;
+ 4       if (a > 0) {
+ 5           // a is greater than 0, so this statement will execute
+ 6           System.out.println("a is positive");
+ 7       } else if (a >= 0) {
+ 8           // a case has already executed, so this statement will NOT execute
+ 9           System.out.println("a is positive or zero");
+10       } else {
+11           // a case has already executed, so this statement will NOT execute
+12           System.out.println("a is negative");
+13       }
+14     }
+15 }

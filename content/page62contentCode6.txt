@@ -1,0 +1,7 @@
+public String readLine() {
+  // Creates a new BufferedReader object
+  BufferedReader x = new BufferedReader(new InputStreamReader(System.in));
+
+  // Reads a line of input and returns it directly
+  return x.readLine();
+}

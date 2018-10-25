@@ -1,0 +1,6 @@
+1 public void testInner() {
+2     ...
+3     OuterClass outer = new OuterClass();
+4     OuterClass.InnerClass inner = outer.new InnerClass();  
+5     ...
+6 }

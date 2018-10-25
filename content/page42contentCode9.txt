@@ -1,0 +1,5 @@
+Initial ArrayList : []
+Size of al :2
+Contents of al :[A, B]
+Contents of al :[A, C, B]
+Size of al :3

@@ -1,0 +1,27 @@
+class MyDefinedException extends Exception
+ {
+  public MyDefinedException(String str) 
+  {
+     super(str);
+  }   
+ }
+
+ public class MyClass
+ {
+    public static void showMyName(String str) throws MyDefinedException
+    {
+          if(str.equals("What is your Name?"))
+                throw new MyDefinedException("My name is Blah Blah");
+    }
+    public static void main(String a[])
+    {
+       try
+       {
+          showMyName("What is your Name?");
+       }
+       catch(MyDefinedException mde)
+       {
+          mde.printStackTrace();
+       }
+     }
+ }

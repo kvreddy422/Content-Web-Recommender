@@ -1,0 +1,1 @@
+But you will have ClassCastException at runtime again and you can't easily use your field. The solution is to use Generics.

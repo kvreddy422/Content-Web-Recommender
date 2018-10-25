@@ -1,0 +1,3 @@
+1 // Declare Strings pi and quote which contain \u03C0 and \u0027 respectively:
+2 String pi = "\u03C0";
+3 String quote = "\u0027";

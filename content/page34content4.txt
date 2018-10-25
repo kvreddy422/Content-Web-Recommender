@@ -1,0 +1,1 @@
+Some classes can't be inherited. Those classes are defined with the final keyword. For instance, the Integer class can't have subclasses. It is called a final class.

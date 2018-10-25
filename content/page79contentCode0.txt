@@ -1,0 +1,36 @@
+1 package com.test;
+ 2  
+ 3 public class DummyTo {
+ 4     private String name;
+ 5     private String address;
+ 6  
+ 7     public String getName() {
+ 8         return name;
+ 9     }
+10  
+11     public void setName(String name) {
+12         this.name = name;
+13     }
+14  
+15     public String getAddress() {
+16         return address;
+17     }
+18  
+19     public void setAddress(String address) {
+20         this.address = address;
+21     }
+22  
+23     public DummyTo(String name, String address) {
+24         this.name = name;
+25         this.address = address;
+26     }
+27  
+28     public DummyTo() {
+29         this.name = new String();
+30         this.address = new String();
+31     }
+32  
+33     public String toString(String appendBefore) {
+34         return appendBefore + " " + name + ", " + address;
+35     }
+36 }

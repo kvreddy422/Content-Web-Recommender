@@ -1,0 +1,1 @@
+The Matcher class allows to get all matches for a given expression, with different methods:

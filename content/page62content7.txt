@@ -1,0 +1,1 @@
+Alternatively, one could write a method to handle keyboard input:

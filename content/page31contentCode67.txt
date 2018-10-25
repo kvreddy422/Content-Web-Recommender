@@ -1,0 +1,1 @@
+[public|protected|private] native method();

@@ -1,0 +1,1 @@
+These inner classes, also called local classes, cannot have access modifiers, like local variables, since the class is 'private' to the method. The inner class can be only abstract or final.

@@ -1,0 +1,6 @@
+for ( int i=0; i < maxLoopIter; i++ ) {
+   System.out.println("Iter=" +i);
+   if ( i == 5 ) {
+      break;  // -- 5 iteration is enough --
+   }
+}

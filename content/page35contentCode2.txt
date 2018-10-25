@@ -1,0 +1,5 @@
+1 public class OneClass {
+2     public int method1(String parameter) {
+3         return 1;
+4     }
+5 }

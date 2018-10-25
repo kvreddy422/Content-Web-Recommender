@@ -1,0 +1,6 @@
+1 int a;
+2 int b;
+3 String c;
+4 a = 10;
+5 b = 20;
+6 c = "some text";

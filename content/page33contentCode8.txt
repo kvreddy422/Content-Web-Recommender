@@ -1,0 +1,5 @@
+1 public class Cheese {
+2      public Cheese(int weight, String type) {
+3           doStuff();
+4      }
+5 }

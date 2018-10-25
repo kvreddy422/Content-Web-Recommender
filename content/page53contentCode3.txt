@@ -1,0 +1,33 @@
+/**
+  * COM_DATA data structure 
+  */
+ public class COM_DATA implements Serializable
+ {
+  public String  comData;
+  public boolean bExit;
+  public int     iRet;
+    /**
+     * --- Constants values can be passed in in iRet to the Server ---
+     */
+    static final int WAIT_FOR_RESPONSE    = 0;
+    static final int NOWAIT_FOR_RESPONSE  = 1;
+   /**
+    * Initialize the data structure
+    */
+   public COM_DATA()
+   {
+      comData     = "";
+      bExit       = false;
+      iRet        = 0;
+   } // -- End of COM_DATA() Constructor --   
+   /**
+    * Copy over it contents 
+    */
+   public void copy( COM_DATA tSrc )
+   {
+      this.comData     = tSrc.comData;
+      this.bExit       = tSrc.bExit;
+      this.iRet        = tSrc.iRet;
+    return;
+   } 
+ } // -- End of COM_DATA class --

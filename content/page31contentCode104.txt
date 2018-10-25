@@ -1,0 +1,23 @@
+public Customer findCustomer( String name ) throws '''CustomerNotFoundException'''
+ {
+    Customer custRet = null;
+ 
+    Iterator iter = _customerList.iterator();
+    while ( iter.hasNext() )
+    {
+        Customer cust = (Customer) iter.next();
+        if ( cust.getName().equals( name ) )
+        {
+           // --- Customer find --
+           custRet = cust;
+           break;
+        }
+     }
+     if ( custRet == null )
+     {
+        // --- Customer not found ---
+        throw new '''CustomerNotFoundException'''( "Customer "+ name + " was not found" );
+     }
+ 
+    return custRet
+  }

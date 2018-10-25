@@ -1,0 +1,6 @@
+1 int firstNumber = 10;
+2 int secondNumber = 20;
+3 int result = firstNumber + secondNumber;
+4 System.out.println(result);
+5 secondNumber = 30;
+6 System.out.println(result);

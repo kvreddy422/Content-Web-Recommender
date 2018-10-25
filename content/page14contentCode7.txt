@@ -1,0 +1,6 @@
+1 String answer;
+2 if (p < 0.05) {
+3     answer = "reject";
+4 } else {
+5     answer = "keep";
+6 }

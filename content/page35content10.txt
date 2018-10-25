@@ -1,0 +1,1 @@
+An interface can extend several interfaces, similar to the way that a class can extend another class, using the extends keyword:

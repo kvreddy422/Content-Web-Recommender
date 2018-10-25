@@ -1,0 +1,5 @@
+1 public static final double PI = 3.1415926535;
+2 
+3 public static void main(final String[] arguments) {
+4    //…
+5 }

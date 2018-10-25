@@ -1,0 +1,50 @@
+1 package com.test;
+ 2  
+ 3 import java.lang.reflect.Constructor;
+ 4 import java.lang.reflect.InvocationTargetException;
+ 5 import java.lang.reflect.Method;
+ 6  
+ 7 public class ReflectTest {
+ 8     public static void main(String[] args) {
+ 9         try {
+10             Class<?> dummyClass = Class.forName("com.test.DummyTo");
+11  
+12             // parameter types for methods
+13             Class<?>[] partypes = new Class[]{String.class};
+14  
+15             // Create method object. methodname and parameter types
+16             Method meth = dummyClass.getMethod("toString", partypes);
+17  
+18             // parameter types for constructor
+19             Class<?>[] constrpartypes = new Class[]{String.class, String.class};
+20  
+21             //Create constructor object. parameter types
+22             Constructor<?> constr = dummyClass.getConstructor(constrpartypes);
+23  
+24             // create instance
+25             Object dummyto = constr.newInstance(new Object[]{"Java Programmer", "India"});
+26  
+27             // Arguments to be passed into method
+28             Object[] arglist = new Object[]{"I am"};
+29  
+30             // invoke method!!
+31             String output = (String) meth.invoke(dummyto, arglist);
+32             System.out.println(output);
+33  
+34         } catch (ClassNotFoundException e) {
+35             e.printStackTrace();
+36         } catch (SecurityException e) {
+37             e.printStackTrace();
+38         } catch (NoSuchMethodException e) {
+39             e.printStackTrace();
+40         } catch (IllegalArgumentException e) {
+41             e.printStackTrace();
+42         } catch (IllegalAccessException e) {
+43             e.printStackTrace();
+44         } catch (InvocationTargetException e) {
+45             e.printStackTrace();
+46         } catch (InstantiationException e) {
+47             e.printStackTrace();
+48         }
+49     }
+50 }

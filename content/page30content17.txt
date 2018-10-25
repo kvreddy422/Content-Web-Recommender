@@ -1,0 +1,1 @@
+(The '*' character is Unicode 002A and the '/' character is Unicode 002F.)

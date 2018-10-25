@@ -1,0 +1,5 @@
+1 public class Class3 {
+2     public static final int CONSTANT_OF_CLASS_3 = 9;
+3     public void myMethodOfClass3(int i) {
+4     }
+5 }

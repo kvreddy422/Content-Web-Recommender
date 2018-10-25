@@ -1,0 +1,6 @@
+1 public class Cheese {
+2   // This is a method with the same name as the class
+3   public void Cheese() {
+4     System.out.println("A method execution.");
+5   }
+6 }

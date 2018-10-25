@@ -1,0 +1,5 @@
+1 class AnimalComparator implements Comparator<Animal> {
+2   int compare(Animal a, Animal b) {
+3    //...
+4   }
+5 }

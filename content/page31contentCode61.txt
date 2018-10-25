@@ -1,0 +1,4 @@
+if ( obj instanceof Edible )
+ {
+   System.out.println("it is edible");
+ }

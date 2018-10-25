@@ -1,0 +1,1 @@
+Other Unicode space characters, including vertical tab, are not allowed as whitespace in Java.

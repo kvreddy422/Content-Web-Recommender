@@ -1,0 +1,9 @@
+1 public class MyObject {
+2    private int memberVar;
+3 ...
+4    MyObject(MyObject obj) {
+5       this.memberVar = obj.memberVar;
+6     ...
+7    }
+8 ...
+9 }

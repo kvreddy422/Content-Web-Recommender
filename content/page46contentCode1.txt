@@ -1,0 +1,9 @@
+1 public void ioOperation(boolean isResourceAvailable) {
+2   try {
+3     if (!isResourceAvailable) {
+4       throw new IOException();
+5     }
+6   } catch(IOException e) {
+7     // Handle caught exceptions.
+8   }
+9 }

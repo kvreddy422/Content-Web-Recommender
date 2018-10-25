@@ -1,0 +1,1 @@
+Java's primitive types are boolean, byte, char, short, int, long, float and double. Each of which are also Java language keywords.

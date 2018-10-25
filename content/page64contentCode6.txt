@@ -1,0 +1,7 @@
+public void addNumberReadListener(NumberReadListener listener) {
+    this.listeners.add(listener);
+}
+
+public void removeNumberReadListener(NumberReadListener listener) {
+    this.listeners.remove(listener);
+}

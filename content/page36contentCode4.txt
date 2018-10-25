@@ -1,0 +1,7 @@
+1 public void logIt(String param, String err) {
+2   ...
+3 }
+4 
+5 public void logIt(String err, String param) {
+6   ...
+7 }

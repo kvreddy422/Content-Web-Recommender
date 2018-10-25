@@ -1,0 +1,11 @@
+1 boolean a;
+ 2 double b;
+ 3 byte c;
+ 4 long d;
+ 5 char e;
+ 6 
+ 7 a = false;
+ 8 b = 3.2;
+ 9 c = 35;
+10 d = -93485L;
+11 e = 'q';

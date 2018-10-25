@@ -1,0 +1,1 @@
+Executing code from a Class instance is explained in the Dynamic Invocation chapter.

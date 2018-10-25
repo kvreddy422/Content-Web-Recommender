@@ -1,0 +1,18 @@
+int var = 3;
+if ( var == 1 ) {
+   System.out.println( "Case: 1" );
+   System.out.println( "Execute until break" );
+} else if ( var == 2 ) {
+   System.out.println( "Case: 2" );
+   System.out.println( "Execute until break" );
+} else if ( var == 3 ) {
+   System.out.println( "Case: 3" );
+   System.out.println( "Execute until break" );
+} else if ( var == 4 ) {
+   System.out.println( "Case: 4" );
+   System.out.println( "Execute until break" );
+} else {
+   // -- This is the default part -- 
+   System.out.println( "Case: default" );
+   System.out.println( "Execute until break" );
+}

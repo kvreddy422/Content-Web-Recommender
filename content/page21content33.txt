@@ -1,0 +1,1 @@
+How many static fields does this class have?

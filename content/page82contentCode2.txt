@@ -1,0 +1,19 @@
+import java.sql.*; 
+import java.io.*; 
+import oracle.jdbc.*; 
+import oracle.sql.*; 
+
+public class OracleDatabase {
+  public static void main(String[] args) {
+    try {
+      DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+      Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:MyDatabase", "MyAccount", "MyPassword"); 	
+      conn.setAutoCommit(true);
+      String sql = "SELECT sum(bytes) from dba_segments;";
+      Statement stmt = conn.createStatement();
+      stmt.execute(sql); 
+      stmt.close();
+      conn.close();   
+    } catch(SQLException e) { e.printStackTrace(); }
+  }
+}

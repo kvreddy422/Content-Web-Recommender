@@ -1,0 +1,1 @@
+Since associative arrays depend on both the equals and hashCode methods, there is an important contract between these two methods that must be maintained if the objects are to be inserted into a Map:

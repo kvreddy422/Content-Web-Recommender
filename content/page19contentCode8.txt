@@ -1,0 +1,5 @@
+Assignment                                       (x = 3) : 3
+Assign x plus another integer to itself          (x += 5): 10
+Assign x minus another integer to itself         (x -= 4): 1
+Assign x multiplied by another integer to itself (x *= 6): 30
+Assign x divided by another integer to itself    (x /= 5): 1

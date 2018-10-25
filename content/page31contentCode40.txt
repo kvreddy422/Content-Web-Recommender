@@ -1,0 +1,13 @@
+1 System.out.println("Before the try block");
+ 2 try {
+ 3   System.out.println("Enter inside the try block");
+ 4   throw new MyException1();
+ 5   System.out.println("Terminate the try block");
+ 6 } catch (MyException1 e) {
+ 7   System.out.println("Handle the Exception1");
+ 8 } catch (MyException2 e) {
+ 9   System.out.println("Handle the Exception2");
+10 } finally {
+11   System.out.println("Execute the finally block");
+12 }
+13 System.out.println("Continue");

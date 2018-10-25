@@ -1,0 +1,14 @@
+public void start() {
+    Console console = System.console();
+    if (console != null) {
+        Double d = null;
+        do {
+            String readLine = console.readLine("Enter a number: ", (Object[])null);
+            d = getDoubleValue(readLine);
+            if (d != null) {
+                notifyListeners(d);
+            }
+        } while (d != null);
+        notifyListenersOfEndOfStream();
+    }
+}

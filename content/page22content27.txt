@@ -1,0 +1,1 @@
+The string returned by substring() would be "port".

@@ -1,0 +1,1 @@
+If you want to execute a Java byte-code with a .jar extension (say, SomeApplication.jar), you would need to use the following command in Command Prompt (on Windows) or Terminal (on Linux or Mac OS):

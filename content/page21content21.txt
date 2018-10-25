@@ -1,0 +1,1 @@
+A method may return a value (which can be a primitive type or an object reference). If the method does not return a value we use the void Java keyword.

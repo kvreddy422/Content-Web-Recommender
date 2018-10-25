@@ -1,0 +1,1 @@
+Otherwise, ojdbc7.jar can be downloaded from http://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html, and add it to the compilation. Eg:

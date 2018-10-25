@@ -1,0 +1,1 @@
+Besides these logical bitwise functions, there are also operators to assign numbers to variables (x = -5):

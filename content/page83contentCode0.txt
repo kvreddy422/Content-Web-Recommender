@@ -1,0 +1,8 @@
+import java.util.regex.Pattern;
+public class Regex {
+	public static void main(String[] args) {
+		String s = "Test Java regex for Wikibooks.";
+		System.out.println(Pattern.matches("[a-z]* Wikibooks",s));
+    }
+}
+// Displays: "for Wikibooks"

@@ -1,0 +1,1 @@
+Although the field and method are marked private, the following class shows that it is possible to access the private features of a class:

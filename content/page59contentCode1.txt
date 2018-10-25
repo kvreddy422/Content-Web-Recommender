@@ -1,0 +1,12 @@
+public class MyMethod
+{
+    @CodeDescription
+    (
+        author = "Unknown",
+        version = "1.0.0.1"
+    )
+    public void doSomething()
+    {
+        ...
+    }
+}

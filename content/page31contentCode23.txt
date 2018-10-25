@@ -1,0 +1,4 @@
+/** Grades of courses */
+  enum Grade { A, B, C, D, F };
+  // ...
+  private Grade gradeA = Grade.A;

@@ -1,0 +1,1 @@
+To be able to compare two Java objects of the same class the boolean equals(Object obj) method must be overriden and implemented by the class.

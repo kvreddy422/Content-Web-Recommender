@@ -1,0 +1,1 @@
+We won't actually use the remove method in this example — but recall that the Model says it must be present.

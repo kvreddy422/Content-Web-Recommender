@@ -1,0 +1,1 @@
+Oracle's Java Code Conventions recommend that the braces should always be used.

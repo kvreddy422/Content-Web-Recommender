@@ -1,0 +1,1 @@
+The Java platform was one of the first systems to provide wide support for the execution of code from remote sources. The Java language was designed with network computing in mind.

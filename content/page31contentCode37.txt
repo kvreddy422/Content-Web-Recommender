@@ -1,0 +1,9 @@
+1 try {
+2   // ...
+3 } catch (MyException1 e) {
+4   // Handle the Exception1 here
+5 } catch (MyException2 e) {
+6   // Handle the Exception2 here
+7 } finally {
+8   // This will always be executed no matter what happens
+9 }

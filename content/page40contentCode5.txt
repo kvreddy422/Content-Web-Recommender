@@ -1,0 +1,22 @@
+1 public class Repository<T, U> {
+ 2 
+ 3    public T item;
+ 4 
+ 5    public U anotherItem;
+ 6 
+ 7    public T getItem() {
+ 8       return item;
+ 9    }
+10 
+11    public void setItem(T newItem) {
+12       item = newItem;
+13    }
+14 
+15    public U getAnotherItem() {
+16       return anotherItem;
+17    }
+18 
+19    public void setAnotherItem(U newItem) {
+20       anotherItem = newItem;
+21    }
+22 }

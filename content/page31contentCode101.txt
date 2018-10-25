@@ -1,0 +1,10 @@
+public class MyClass
+ { 
+    //...
+    private String value;
+    //...
+    public void setMemberVar( String value )
+    {
+        this.value= value;
+    }
+ }

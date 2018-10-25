@@ -1,0 +1,16 @@
+1 public class Repository {
+ 2 
+ 3    public Object item;
+ 4 
+ 5    public Object getItem() {
+ 6       return item;
+ 7    }
+ 8 
+ 9    public void setItem(Integer newItem) {
+10       item = newItem;
+11    }
+12 
+13    public void setItem(String newItem) {
+14       item = newItem;
+15    }
+16 }

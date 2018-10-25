@@ -1,0 +1,6 @@
+1 public class Question1 extends Class2 {
+2     public static final int CONSTANT = 2;
+3     public int myAttribute = 20;
+4     public void myMethod(int i) {
+5     }
+6 }

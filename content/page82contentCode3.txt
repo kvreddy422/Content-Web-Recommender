@@ -1,0 +1,5 @@
+try {
+   Class.forName("org.postgresql.Driver");
+   Connection conn = DriverManager.getConnection("jdbc:postgresql:MyDatabase", "MyAccount", "MyPassword");
+   conn.close();
+} catch(SQLException e) { e.printStackTrace(); }

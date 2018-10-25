@@ -1,0 +1,1 @@
+Exactly as the name sounds, an @Inherited annotation type is inherited by subclasses of an annotated type.

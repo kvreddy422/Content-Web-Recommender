@@ -1,0 +1,1 @@
+If return statement is used inside finally, it overrides the return statement in the try-catch block. For instance, the construct

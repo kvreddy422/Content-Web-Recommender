@@ -1,0 +1,6 @@
+1 public void init() {
+2     setLayout(new FlowLayout());
+3     add(nameLabel);
+4     add(t1);
+5     add(submitButton);
+6 }

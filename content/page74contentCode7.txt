@@ -1,0 +1,2 @@
+1 a.setFont(new Font("Times New Roman", Font.PLAIN, 24));
+2 b.setFont(new Font("Times New Roman", Font.ITALIC, 28));

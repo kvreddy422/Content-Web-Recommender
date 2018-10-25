@@ -1,0 +1,12 @@
+1 int n = 2, x;
+ 2 switch (n) {
+ 3   case 1: x = 2;
+ 4     break;
+ 5   case 2: x = 4;
+ 6     break;
+ 7   case 3: x = 6;
+ 8     break;
+ 9   case 4: x = 8;
+10     break;
+11 }
+12 return x;

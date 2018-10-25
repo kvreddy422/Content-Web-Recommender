@@ -1,0 +1,3 @@
+1 Collection<Integer> ageList = new ArrayList<Integer>();
+2 ageList.add(new Integer(46));     // Integer can be added
+3 ageList.add("50");                // Compilation error, ageList can have only Integers inside

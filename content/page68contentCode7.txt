@@ -1,0 +1,8 @@
+...
+public void paint(Graphics graphics) {
+    graphics.setColor(Color.red);
+    graphics.drawRect(10, 10, 100, 100);
+    graphics.setColor(Color.yellow);
+    graphics.fillRect(10, 10, 100, 100);
+}
+...

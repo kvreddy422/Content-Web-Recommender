@@ -1,0 +1,25 @@
+1 import java.applet.Applet;
+ 2 import java.awt.CardLayout;
+ 3 import java.awt.Label;
+ 4 
+ 5 public class CardLayoutApplet extends Applet {
+ 6 
+ 7     static final String COMPONENT_POSITION_TOP = "TOP";
+ 8     static final String COMPONENT_POSITION_MIDDLE = "MIDDLE";
+ 9     static final String COMPONENT_POSITION_BOTTOM = "BOTTOM";
+10 
+11     Label topLabel = new Label("At the top");
+12     Label middleLabel = new Label("In the middle");
+13     Label bottomLabel = new Label("At the bottom");
+14 
+15     /**
+16      * Init.
+17      */
+18     public void init() {
+19         setLayout(new CardLayout());
+20         add(COMPONENT_POSITION_TOP, topLabel);
+21         add(COMPONENT_POSITION_MIDDLE, middleLabel);
+22         add(COMPONENT_POSITION_BOTTOM, bottomLabel);
+23         ((CardLayout)getLayout()).show(this, COMPONENT_POSITION_MIDDLE);
+24     }
+25 }

@@ -1,0 +1,11 @@
+private void notifyListenersOfEndOfStream() {
+    for (NumberReadListener numberReadListener : listeners) {
+        numberReadListener.numberStreamTerminated(new NumberReadEvent(this, 0D));
+    }
+}
+
+private void notifyListeners(Double d) {
+    for (NumberReadListener numberReadListener: listeners) {
+        numberReadListener.numberRead(new NumberReadEvent(this, d));
+    }
+}

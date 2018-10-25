@@ -1,0 +1,5 @@
+1 /**
+2  * This fake package is used to illustrate the Java wikibook.
+3  * at <i>en.wikibooks.org</i>.
+4  */
+5 package org.wikibooks.en;

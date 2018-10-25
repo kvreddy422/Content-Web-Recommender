@@ -1,0 +1,5 @@
+1 /**
+2  * Comments which start with slash-star-star are Javadoc comments.
+3  * These are used to extract documentation from the Java source.
+4  * More on javadoc will be covered later.
+5  */

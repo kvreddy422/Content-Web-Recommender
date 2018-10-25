@@ -1,0 +1,7 @@
+1 public void runAroundThe(Building block) {
+2   ...
+3 }
+4 
+5 public void runAroundThe(Park park) {
+6   ...
+7 }

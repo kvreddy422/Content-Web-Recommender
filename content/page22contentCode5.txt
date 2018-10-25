@@ -1,0 +1,4 @@
+1 System.out.println("First part");
+2 System.out.println(" second part");
+3 String str = "First part" + " second part";
+4 System.out.println(str);

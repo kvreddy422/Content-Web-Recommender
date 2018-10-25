@@ -1,0 +1,1 @@
+The if ... else statement is used to conditionally execute one of two blocks of statements, depending on the result of a boolean condition.

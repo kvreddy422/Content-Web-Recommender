@@ -1,0 +1,20 @@
+1 import java.io.File;
+ 2 import java.io.FileOutputStream;
+ 3 import java.util.Date;
+ 4  
+ 5 public class LogTime {
+ 6     public static void main(String[] args) throws Exception {
+ 7         // Generate data
+ 8         String timeInString = new Date().toString();
+ 9 
+10         // Store data
+11         File file = new File("log.txt");
+12         FileOutputStream stream = new FileOutputStream(file);
+13 
+14         byte[] timeInBytes = timeInString.getBytes();
+15 
+16         stream.write(timeInBytes);
+17         stream.flush();
+18         stream.close();
+19     }
+20 }

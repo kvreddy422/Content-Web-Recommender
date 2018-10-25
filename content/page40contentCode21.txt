@@ -1,0 +1,11 @@
+1 Customer cust = Utility.createAnyObject(Customer.class);  // No casting
+ 2 ...
+ 3 public static <T> T createAnyObject(Class<T> cls) {
+ 4     T ret = null;
+ 5     try {
+ 6         ret = cls.newInstance();
+ 7     } catch (Exception e) {
+ 8         // Exception Handling
+ 9     }
+10     return ret;
+11 }

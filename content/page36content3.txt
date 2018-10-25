@@ -1,0 +1,1 @@
+One type can be the subclass of the other:

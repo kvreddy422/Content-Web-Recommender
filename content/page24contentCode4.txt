@@ -1,0 +1,1 @@
+$ javac -classpath libraries/lib.jar source/MainClass.java

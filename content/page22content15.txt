@@ -1,0 +1,1 @@
+Comparing strings is not as easy as it may first seem. Be aware of what you are doing when comparing String's using ==:

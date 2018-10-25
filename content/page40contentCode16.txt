@@ -1,0 +1,5 @@
+1 Comparator<Animal> myAnimalComparator = new AnimalComparator();
+2 
+3 static int compareTwoDogs(Comparator<? super Dog> comp, Dog dog1, Dog dog2) {
+4   return comp.compare(dog1, dog2);
+5 }

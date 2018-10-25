@@ -1,0 +1,14 @@
+1 public class SimpleDivisionOperation {
+ 2   public static void main(String[] args) {
+ 3     System.out.println(divide(4, 2));
+ 4     if (args.length > 1) {
+ 5       int arg0 = Integer.parseInt(args[0]);
+ 6       int arg1 = Integer.parseInt(args[1]);
+ 7       System.out.println(divide(arg0, arg1));
+ 8     }
+ 9   }
+10 
+11   public static int divide(int a, int b) {
+12     return a / b;
+13   }
+14 }

@@ -1,0 +1,5 @@
+1 AbstractClass myInstance = new AbstractClass() {
+2     public void abstractMethod() {
+3         System.out.println("Implementation.");
+4     }
+5 };

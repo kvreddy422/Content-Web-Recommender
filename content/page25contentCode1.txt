@@ -1,0 +1,5 @@
+$ java ArrayExample This is a test
+Argument #1 This
+Argument #2 is
+Argument #3 a
+Argument #4 test

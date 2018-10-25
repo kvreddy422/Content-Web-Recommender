@@ -1,0 +1,19 @@
+1 import java.util.ArrayList;
+ 2 import java.util.Collection;
+ 3 
+ 4 public class Answer9 {
+ 5   public static void main(String[] args) {
+ 6     Collection<String> collection1 = new ArrayList<String>();
+ 7     Collection<? extends Object> collection2 = new ArrayList<String>();
+ 8     Collection<? extends String> collection3 = new ArrayList<String>();
+ 9     Collection<? extends String> collection4 = new ArrayList<Object>();
+10     Collection<? super Object> collection5 = new ArrayList<String>();
+11     Collection<? super Object> collection6 = new ArrayList<Object>();
+12     Collection<?> collection7 = new ArrayList<String>();
+13     Collection<? extends Object> collection8 = new ArrayList<?>();
+14     Collection<? extends Object> collection9 = new ArrayList<Object>();
+15     Collection<? extends Integer> collection10 = new ArrayList<String>();
+16     Collection<String> collection11 = new ArrayList<? extends String>();
+17     Collection collection12 = new ArrayList<String>();
+18   }
+19 }

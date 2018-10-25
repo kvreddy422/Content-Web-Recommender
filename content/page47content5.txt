@@ -1,0 +1,1 @@
+In the above code, all business logic exception are handled in the getTimeStamp() method. Runtime exceptions are caught for logging purposes, and then thrown back to the server to be handled.

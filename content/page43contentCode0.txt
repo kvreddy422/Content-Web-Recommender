@@ -1,0 +1,6 @@
+1 import java.util.Map;
+2 import java.util.Hashtable;
+3 ...
+4 Map map = new Hashtable();
+5 ...
+6 map.put(key, value);

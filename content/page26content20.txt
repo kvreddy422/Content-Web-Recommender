@@ -1,0 +1,1 @@
+In this example, result will contain a value of 3.

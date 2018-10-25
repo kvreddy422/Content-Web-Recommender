@@ -1,0 +1,15 @@
+1 public class NestingExceptionExample {
+ 2  
+ 3   public static void main(String[] args) throws Exception {
+ 4     Object[] localArgs = (Object[]) args;
+ 5    
+ 6     try {
+ 7       Integer[] numbers = (Integer[]) localArgs;
+ 8     } catch (ClassCastException originalException) {
+ 9       Exception generalException = new Exception(
+10         "Horrible exception!",
+11         originalException);
+12       throw generalException;
+13     }
+14   }
+15 }

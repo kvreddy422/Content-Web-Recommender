@@ -1,0 +1,11 @@
+public enum DayOfWeek implements Runnable {
+  MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
+ 
+  /**
+   * Run method prints all elements
+   */
+  public void run() {
+    System.out.println("name() = " + name() +
+      ", toString() = \"" + toString() + "\"");
+  }
+}

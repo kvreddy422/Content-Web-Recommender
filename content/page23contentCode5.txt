@@ -1,0 +1,2 @@
+1 ClassName objRefVariable = new ClassName();
+2 objRefVariable.operations();

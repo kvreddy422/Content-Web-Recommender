@@ -1,0 +1,6 @@
+1 <!DOCTYPE html>
+2 <html>
+3   <body>
+4     HTML content before the applet.<applet code="HelloWorld" height="40" width="200"></applet>HTML content after the applet.
+5   </body>
+6 </html>

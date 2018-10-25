@@ -1,0 +1,1 @@
+It is a branching operation, based on a number. The 'number' must be either char, byte, short, or int primitive type.

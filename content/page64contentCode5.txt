@@ -1,0 +1,5 @@
+private Set<NumberReadListener> listeners;
+   
+public NumberReader() {
+    listeners = new HashSet<NumberReadListener>();
+}

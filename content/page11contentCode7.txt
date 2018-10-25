@@ -1,0 +1,2 @@
+1  private java.awt.Point point0 = null;
+2  private java.awt.Point point1 = null;

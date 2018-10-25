@@ -1,0 +1,4 @@
+1 public int method(final int inputInteger) {
+2    int outputInteger = inputInteger + 1;
+3    return outputInteger;
+4 }

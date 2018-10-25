@@ -1,0 +1,2 @@
+1   Random random = new Random();
+2   int randomNumber = n + random.nextInt(m - n);

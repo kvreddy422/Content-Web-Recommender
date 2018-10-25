@@ -1,0 +1,5 @@
+1 int i = 1;
+2 while (i <= 10) {
+3   System.out.println(i);
+4   i++;
+5 }

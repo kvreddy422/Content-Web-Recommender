@@ -1,0 +1,19 @@
+1 import java.io.File;
+ 2 import java.io.FileOutputStream;
+ 3 
+ 4 public class FileLogger {
+ 5   public void printLog(String log) {
+ 6     try {
+ 7       File file = new File("log.txt");
+ 8       FileOutputStream stream = new FileOutputStream(file);
+ 9       byte[] logInBytes = (new Date() + ": " + log).getBytes();
+10 
+11       stream.write(logInBytes);
+12 
+13       stream.flush();
+14       stream.close();
+15     } catch (Exception e) {
+16       e.printStackTrace();
+17     }
+18   }
+19 }

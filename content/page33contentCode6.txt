@@ -1,0 +1,16 @@
+1 public class Cheese {
+ 2      // This is a constructor
+ 3      public Cheese() {
+ 4           doStuff();
+ 5      }
+ 6 
+ 7      // This is another constructor
+ 8      public Cheese(int weight) {
+ 9           doStuff();
+10      }
+11 
+12      // This is yet another constructor
+13      public Cheese(String type, int weight) {
+14           doStuff();
+15      }
+16 }

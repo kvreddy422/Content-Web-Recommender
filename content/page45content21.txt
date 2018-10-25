@@ -1,0 +1,1 @@
+A method can do two things with an exception: ask the calling method to handle it by the throws declaration or handle the exception inside the method by the try-catch block.

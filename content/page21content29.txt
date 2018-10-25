@@ -1,0 +1,1 @@
+A static method is a method that can be called without an object instance. It can be called on the class directly. For example, the valueOf(String) method of the Integer class is a static method:

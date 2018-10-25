@@ -1,0 +1,22 @@
+1 public static Object getProperty(Object o, String propertyName) {
+ 2    if (o == null ||
+ 3        propertyName == null ||
+ 4        propertyName.length() < 1) {
+ 5       return null;
+ 6    }
+ 7    // Based on the property name build the getter method name
+ 8    String methodName = "get" +
+ 9                       propertyName.substring(0,1).toUpperCase() +
+10                       propertyName.substring(1);
+11    Object property = null;
+12    try {
+13       java.lang.Class c = o.getClass();
+14       java.lang.reflect.Method m = c.getMethod(methodName, null);
+15       property = m.invoke(o, null);
+16    } catch (NoSuchMethodException e) {
+17      // Handle exception
+18    }  catch (SecurityException e) {
+19      // No permission; Handle exception
+20    }
+21 return property;
+22 }

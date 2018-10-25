@@ -1,0 +1,1 @@
+These are five variables. There are a long, a byte, a char, a double and a boolean. Retrieve the type of each one.

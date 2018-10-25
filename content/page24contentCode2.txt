@@ -1,0 +1,7 @@
+1 import business.BusinessClass;
+2 
+3 public class MyClass {
+4   public static void main(String[] args) {
+5     BusinessClass myBusinessClass = new BusinessClass();
+6   }
+7 }

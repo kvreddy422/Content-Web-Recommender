@@ -1,0 +1,7 @@
+1 int x = f();
+2 int y = y();
+3 if (x < y) {
+4   int z = x;
+5   x = y;
+6   y = z;
+7 }

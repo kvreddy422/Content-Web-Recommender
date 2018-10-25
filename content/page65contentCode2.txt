@@ -1,0 +1,11 @@
+1 import org.apache.commons.beanutils.PropertyUtils;
+ 2 
+ 3 try {
+ 4   Object myValue = PropertyUtils.getSimpleProperty(o, propertyName);
+ 5 } catch (IllegalAccessException e) {
+ 6   // Handle exception
+ 7 } catch (InvocationTargetException e) {
+ 8   // Handle exception
+ 9 } catch (NoSuchMethodException e) {
+10   // Handle exception
+11 }

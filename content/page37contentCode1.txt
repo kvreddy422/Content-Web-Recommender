@@ -1,0 +1,7 @@
+1 public class MyProgram {
+2 
+3   public static void main(String[] args) {
+4     // Create an 'MyObject' for the first time the application started
+5     MyObject obj = new MyObject();
+6   }
+7 }

@@ -1,0 +1,1 @@
+Java has built-in support for serialization, using the Serializable interface; however, a class must first implement the Serializable interface.

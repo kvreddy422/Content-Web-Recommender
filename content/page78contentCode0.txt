@@ -1,0 +1,2 @@
+1 URLClassLoader classLoader = URLClassLoader.newInstance(
+2    new URL[]{"http://example.com/javaClasses.jar"});

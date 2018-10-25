@@ -1,0 +1,12 @@
+1 import java.applet.Applet;
+ 2 import java.awt.Graphics;
+ 3 
+ 4 public class HelloWorld extends Applet {
+ 5 
+ 6     /**
+ 7      * Print a message on the screen.
+ 8      */
+ 9     public void paint(Graphics g) {
+10         g.drawString("Hello, world!", 20, 10);
+11     }
+12 }

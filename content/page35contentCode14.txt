@@ -1,0 +1,9 @@
+1 public class Person implements Movable {
+2     public void walk() {
+3         System.out.println("Do something.");
+4     }
+5 
+6     public void jump() {
+7         System.out.println("Do something.");
+8     }
+9 }

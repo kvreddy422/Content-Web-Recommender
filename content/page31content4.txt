@@ -1,0 +1,1 @@
+In addition, the identifiers null, true, and false denote literal values and may not be used to create identifiers.

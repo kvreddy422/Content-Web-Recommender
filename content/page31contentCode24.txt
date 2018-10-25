@@ -1,0 +1,8 @@
+student.assignGrade(gradeA);
+  /**
+   * Assigns the grade for this course to the student
+   * @param GRADE  Grade to be assigned
+   */
+  public void assignGrade(final Grade GRADE) {
+    grade = GRADE;
+  }
